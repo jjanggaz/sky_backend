@@ -44,6 +44,31 @@ spring:
   config:
     import: classpath:api.properties
 
+  # 데이터베이스 설정
+  datasource:
+    url: jdbc:mysql://localhost:3306/sky?useSSL=false&serverTimezone=Asia/Seoul&characterEncoding=UTF-8
+    username: sky
+    password: sky
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    hikari:
+      connection-timeout: 30000
+      maximum-pool-size: 10
+      minimum-idle: 5
+      idle-timeout: 600000
+      max-lifetime: 1800000
+      connection-test-query: SELECT 1
+      # 시작 시 연결 확인 (연결 실패 시 애플리케이션 시작 중단)
+      initialization-fail-timeout: 1
+
+  # MyBatis 설정
+  mybatis:
+    mapper-locations: classpath:mapper/**/*.xml
+    type-aliases-package: com.wai.admin.vo
+    configuration:
+      map-underscore-to-camel-case: true
+      default-fetch-size: 100
+      default-statement-timeout: 30
+
   # 로깅 설정
   logging:
     level:
@@ -75,16 +100,13 @@ api:
 # Swagger 설정
 springdoc:
   api-docs:
-    path: /wai_admin
+    path: /v3/api-docs
   swagger-ui:
-    path: /swagger
+    path: /swagger-ui.html
     tags-sorter: alpha
     operations-sorter: alpha
     doc-expansion: none
-    disable-swagger-default-url: true
     # Example Value 자동 생성 설정
     default-models-expand-depth: 1
     default-model-expand-depth: 1
-    # 스키마 예시 표시 설정
-    default-model-renderer: example
   packages-to-scan: com.wai.admin.controller

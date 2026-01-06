@@ -5,9 +5,12 @@ import org.springframework.web.bind.annotation.*;
 
 import com.wai.admin.service.test.TestService;
 
+import com.wai.admin.vo.test.Sky1Vo;
+
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.Properties;
 
@@ -78,5 +81,14 @@ public class TestController {
         config.put("codeEndpoint", apiProperties.getProperty("api.endpoint.code"));
         
         return config;
+    }
+
+    /**
+     * sky1 테이블에서 id, name 컬럼을 조회하여 반환
+     * @return List<Sky1Vo> - Sky1Vo 리스트
+     */
+    @GetMapping("/sky1")
+    public List<Sky1Vo> getSky1Data() {
+        return testService.getSky1Data();
     }
 } 

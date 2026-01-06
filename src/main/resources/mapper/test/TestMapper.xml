@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.wai.admin.mapper.test.TestMapper">
+
+    <!-- sky1 테이블 조회 결과 매핑 -->
+    <resultMap id="Sky1ResultMap" type="com.wai.admin.vo.test.Sky1Vo">
+        <id property="id" column="id"/>
+        <result property="name" column="name"/>
+    </resultMap>
+
+    <!-- sky1 테이블 전체 조회 -->
+    <select id="selectSky1List" resultMap="Sky1ResultMap">
+        SELECT 
+            id,
+            name
+        FROM sky1
+        ORDER BY id
+    </select>
+
+</mapper>
+
