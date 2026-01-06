@@ -62,7 +62,7 @@ spring:
 
   # MyBatis 설정
   mybatis:
-    mapper-locations: classpath:mapper/**/*.xml
+    mapper-locations: classpath*:mapper/**/*.xml
     type-aliases-package: com.wai.admin.vo
     configuration:
       map-underscore-to-camel-case: true
@@ -75,6 +75,8 @@ spring:
       com.wai.admin: DEBUG
       org.springframework.web: DEBUG
       org.springframework.security: DEBUG
+      org.mybatis: DEBUG
+      com.wai.admin.mapper: DEBUG
     pattern:
       console: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
       file: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
@@ -90,7 +92,7 @@ devtools:
   restart:
     enabled: true
     additional-paths: src/main/java
-    exclude: static/**,public/**,templates/**
+    exclude: static/**,public/**,templates/**,mapper/**
 
 # API 설정 (api.properties에서 가져온 값 사용)
 api:

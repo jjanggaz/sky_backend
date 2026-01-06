@@ -10,7 +10,7 @@
     </resultMap>
 
     <!-- sky1 테이블 전체 조회 -->
-    <select id="selectSky1List" resultMap="Sky1ResultMap">
+    <select id="selectSky1List" resultType="com.wai.admin.vo.test.Sky1Vo">
         SELECT 
             id,
             name
