@@ -1,0 +1,2937 @@
+{
+  "project_id": "019b20e5-3245-7970-afca-70e81c36f10f",
+  "project_id_hash": "24c7f118d98429b7adb30999070ce32a",
+  "values": [
+    {
+      "process_id": "MAP_003_SBR",
+      "process_name": "MAP_03_SBR",
+      "process_no": 1,
+      "MAP.con1_name": "SBR reactor",
+      "MAP.con1_qty": "2",
+      "MAP.aqr1_name": "생물반응조 수중포기기",
+      "MAP.aqr1_spec1": "규격",
+      "MAP.aqr1_spec2": "",
+      "MAP.aqr1_qty": "2.0",
+      "MAP.fdc1_name": "상등수 배출장치",
+      "MAP.fdc1_spec1": "규격",
+      "MAP.fdc1_spec2": "",
+      "MAP.fdc1_qty": "2.0",
+      "MAP.vav1_name": "밸브",
+      "MAP.vav1_spec1": "규격",
+      "MAP.vav1_spec2": "",
+      "MAP.vav1_qty": "2.0",
+      "MAP.pmp1_name": "잉여슬러지 배출펌프",
+      "MAP.pmp1_spec1": "규격",
+      "MAP.pmp1_spec2": "",
+      "MAP.pmp1_qty": "3.0",
+      "MAP.aeb1_name": "생물반응조 송풍기",
+      "MAP.aeb1_spec1": "규격",
+      "MAP.aeb1_spec2": "",
+      "MAP.aeb1_qty": "3.0",
+      "MAP.ctr1_name": "공법제어반",
+      "MAP.ctr1_spec1": "규격",
+      "MAP.ctr1_spec2": "자동제어반",
+      "MAP.ctr1_qty": "1.0",
+      "MAP.s_ep_size": "250.0",
+      "MAP.s_ep_bm": "STS",
+      "MAP.a_ehp_size": "350.0A",
+      "MAP.a_ehp_bm": "SPP",
+      "MAP.a_ep_size": "150A",
+      "MAP.a_ep_bm": "SPP",
+      "MAP.t_ep_size": "250.0",
+      "MAP.t_ep_bm": "STS",
+      "MAP.u_ep_size": "32A",
+      "MAP.u_ep_bm": "STS",
+      "DCN.influents.q": 1317.0,
+      "DCN.influents.bodload": 272.619,
+      "DCN.influents.ibodload": 172.619,
+      "DCN.influents.sbodload": 100.0,
+      "DCN.influents.codload": 272.619,
+      "DCN.influents.tocload": 175.161,
+      "DCN.influents.ssload": 233.109,
+      "DCN.influents.tnload": 57.6846,
+      "DCN.influents.tpload": 10.2726,
+      "DCN.influents.bod": 207.00000000000003,
+      "DCN.influents.ibod": 131.0698557327259,
+      "DCN.influents.sbod": 75.930144267274116,
+      "DCN.influents.cod": 207.00000000000003,
+      "DCN.influents.toc": 133.0,
+      "DCN.influents.ss": 177.00000000000003,
+      "DCN.influents.tn": 43.800000000000004,
+      "DCN.influents.tp": 7.8000000000000007,
+      "DCN.influents.temp": 12.0,
+      "DCN.efficiency.bod": 98.0,
+      "DCN.efficiency.ibod": 98.0,
+      "DCN.efficiency.sbod": 98.0,
+      "DCN.efficiency.cod": 98.0,
+      "DCN.efficiency.toc": 88.0,
+      "DCN.efficiency.ss": 92.0,
+      "DCN.efficiency.tn": 80.0,
+      "DCN.efficiency.tp": 79.0,
+      "DCN.effluents.water.q": 1300.9219609685269,
+      "DCN.effluents.water.bod": 4.1911660834295921,
+      "DCN.effluents.water.ibod": 2.6537948497923223,
+      "DCN.effluents.water.sbod": 1.5373712336372696,
+      "DCN.effluents.water.cod": 4.1911660834295921,
+      "DCN.effluents.water.toc": 16.157248959308259,
+      "DCN.effluents.water.ss": 14.335002836078008,
+      "DCN.effluents.water.tn": 8.86826446638724,
+      "DCN.effluents.water.tp": 1.6582439721395317,
+      "DCN.effluents.water.bodload": 5.4523800000000051,
+      "DCN.effluents.water.ibodload": 3.4523800000000051,
+      "DCN.effluents.water.sbodload": 2.0,
+      "DCN.effluents.water.codload": 5.4523800000000051,
+      "DCN.effluents.water.tocload": 21.019319999999993,
+      "DCN.effluents.water.ssload": 18.648719999999997,
+      "DCN.effluents.water.tnload": 11.536919999999995,
+      "DCN.effluents.water.tpload": 2.1572459999999989,
+      "DCN.effluents.sludge.q": 16.078039031473011,
+      "DCN.effluents.sludge.bod": 8255.8139534883721,
+      "DCN.effluents.sludge.ibod": 2476.7441860465115,
+      "DCN.effluents.sludge.sbod": 2133.3447401674553,
+      "DCN.effluents.sludge.cod": 6191.8604651162786,
+      "DCN.effluents.sludge.toc": 6191.8604651162786,
+      "DCN.effluents.sludge.ss": 10000.0,
+      "DCN.effluents.sludge.tn": 919.08976854552668,
+      "DCN.effluents.sludge.tp": 504.747748410989,
+      "DCN.effluents.sludge.bodload": 132.73729898076556,
+      "DCN.effluents.sludge.ibodload": 39.821189694229666,
+      "DCN.effluents.sludge.sbodload": 34.3,
+      "DCN.effluents.sludge.codload": 99.552974235574169,
+      "DCN.effluents.sludge.tocload": 99.552974235574169,
+      "DCN.effluents.sludge.ssload": 160.78039031473011,
+      "DCN.effluents.sludge.tnload": 14.777161172102474,
+      "DCN.effluents.sludge.tpload": 8.1153540000000017,
+      "DCN.info.water.size": "250A",
+      "DCN.info.water.bm": "STS",
+      "DCN.info.water.comp": "",
+      "DCN.info.water.key": "",
+      "DCN.info.water.raw": "Water",
+      "DCN.info.sludge.size": "100A",
+      "DCN.info.sludge.bm": "STS",
+      "DCN.info.sludge.comp": "",
+      "DCN.info.sludge.key": "",
+      "DCN.info.sludge.raw": "Sludge",
+      "DCR.MLSS": 3000.0,
+      "DCR.MLVSS": 2298.0,
+      "DCR.MLSSpMLVSS": 0.76590350021934972,
+      "DCR.SRT": 17.908920777229678,
+      "DCR.SNR": 0.050738396864758922,
+      "DCR.SDNR": 0.0756036349226486,
+      "DCR.HRT": 17.489715379696925,
+      "DCR.FM": 0.12110591338325194,
+      "DCR.Fill": 34.305875594551679,
+      "DCP.Sludge.MLSS": 3000.0,
+      "DCP.Sludge.Nitrifcation": 1.3,
+      "DCP.Sludge.SVI": 100.0,
+      "DCP.Sludge.DecantSF": 1.3,
+      "DCP.Kinetic_Coeffient.m": 6.0,
+      "DCP.Kinetic_Coeffient.ks": 20.0,
+      "DCP.Kinetic_Coeffient.y": 0.4,
+      "DCP.Kinetic_Coeffient.kd": 0.12,
+      "DCP.Kinetic_Coeffient.fd": 0.15,
+      "DCP.Kinetic_Coeffient.thofm": 1.07,
+      "DCP.Kinetic_Coeffient.thofkd": 1.04,
+      "DCP.Kinetic_Coeffient.thofks": 1.0,
+      "DCP.Kinetic_Coeffient.mn": 0.75,
+      "DCP.Kinetic_Coeffient.kn": 0.74,
+      "DCP.Kinetic_Coeffient.yn": 0.12,
+      "DCP.Kinetic_Coeffient.kdn": 0.08,
+      "DCP.Kinetic_Coeffient.ko": 0.5,
+      "DCP.Kinetic_Coeffient.thofmn": 1.07,
+      "DCP.Kinetic_Coeffient.thofkdn": 1.05,
+      "DCP.Kinetic_Coeffient.thofksn": 1.04,
+      "DCP.Operation_Cycle.RAS": 10.0,
+      "DCP.Operation_Cycle.Anoxic": 0.0,
+      "DCP.Operation_Cycle.Fill": 80.0,
+      "DCP.Operation_Cycle.Aeration": 150.0,
+      "DCP.Operation_Cycle.Setting": 60.0,
+      "DCP.Operation_Cycle.Discharge": 60.0,
+      "DCP.Operation_Cycle.Decant": 55.0,
+      "DCP.Operation_Cycle.Sludge": 5.0,
+      "DCP.Operation_Cycle.Pause": 0.0,
+      "DCP.Operation_Cycle.Total": 360.0,
+      "DCP.ETC.DO_in_Basin": 2.0,
+      "DCP.ETC.BDCOD_ratio": 1.5,
+      "DCP.ETC.bpCOD_pCOD_ratio": 0.8,
+      "DCP.ETC.EffluentOrgN": 0.6,
+      "DCP.ETC.EffluentNH4": 1.0,
+      "DCP.BOD.inertbod_ratio": 64.0,
+      "DCP.BOD.Soluble_Ratio": 36.0,
+      "DCP.Aeration.total_time": 10.0,
+      "DCP.Aeration.A": 0.6,
+      "DCP.Aeration.K": 2.86,
+      "DCP.Aeration.B": 0.1,
+      "DCP.Aeration.C": 4.57,
+      "DCP.Aeration.Ea": 18.0,
+      "DCP.Aeration.Safety": 0.0,
+      "DCP.Aeration.OTE": 18.0,
+      "DCP.Aeration.OD1": 96.674532565928516,
+      "DCP.Aeration.OD2": 91.895883587378179,
+      "DCP.Aeration.OD3": 213.0830963944195,
+      "DCP.Aeration.OD4": 0.0,
+      "DCP.Aeration.AOR": 401.65351254772622,
+      "DCP.Aeration.SOR": 661.31955390414475,
+      "DCP.Aeration.Gs": 21.967378967230605,
+      "DCP.Alk_Chemical.required": 148.0,
+      "DCP.Alk_Chemical.influent": 250.0,
+      "DCP.Alk_Chemical.additional": 0.0,
+      "DCP.CH3OH_Chemical.required": 158.0,
+      "DCP.CH3OH_Chemical.influent": 207.0,
+      "DCP.CH3OH_Chemical.additional": 0.0,
+      "DCP.CH3OH_Chemical.conc": 99.0,
+      "DCP.Air_Blower.fluid_velocity": 20.0,
+      "DCP.Floating_Decanter.fluid_velocity": 2.0,
+      "DCP.Sludge_Discharge_Pump.fluid_velocity": 2.0,
+      "DSP.Operation.Operation_total_Time": 360.0,
+      "DSP.Operation.Aeration_time_per_cycle": 150.0,
+      "DSP.Operation.Anoxic_time_per_cycle": 80.0,
+      "DSP.Operation.Reaction_time_aCycle": 6.0,
+      "DSP.Operation.Aeration_time_aCycle": 2.5,
+      "DSP.Operation.Number_of_Cycle_Per_day": 4.0,
+      "DSP.Operation.Fillvolume": 329.25,
+      "DSP.Operation.Sludge_discharge_time": 20.0,
+      "DSP.Water_Quality.Temp_Condition": 12.0,
+      "DSP.Water_Quality.Influent_q": 1317.0,
+      "DSP.Water_Quality.Infleunt_TN": 43.800000000000004,
+      "DSP.Water_Quality.Influent_alk": 250.0,
+      "DSP.Water_Quality.Delta_BOD": 202.80883677467747,
+      "DSP.Design_Parameters.DO_basin": 2.0,
+      "DSP.Design_Parameters.Nitrification_SF": 1.3,
+      "DSP.Design_Parameters.BDCOD_ratio": 1.5,
+      "DSP.Effluent_Quality.Effluent_NO3": 7.2682584187984585,
+      "DSP.Effluent_Quality.Effluent_NH4": 1.0,
+      "DSP.Effluent_Quality.Effluent_orgN": 1.0,
+      "DSP.Calculated.Effluent_TN": 8.8682584187984581,
+      "DSP.Sludge.Setting_MLSS": 3000.0,
+      "DSP.Sludge.Xs": 10000.0,
+      "DSP.Sludge.Setting_Ratio": 0.39,
+      "DSP.Sludge.Min_fill_ratio": 0.61,
+      "DSP.Sludge.Solid_Concentration": 177.00000000000003,
+      "DSP.Sludge.Pump_inflow_solid_conc": 0.0014159999999999997,
+      "DSP.Sludge.Sludge_production_q": 16.077151885352158,
+      "DSP.Kinetics.m_hetero_design_temp": 3.4920546273902291,
+      "DSP.Kinetics.ks_hetero_design_temp": 20.0,
+      "DSP.Kinetics.yield_hetero_design_temp": 0.4,
+      "DSP.Kinetics.kd_hetero_design_temp": 0.08768282460023806,
+      "DSP.Kinetics.fd_hetero_design_temp": 0.15,
+      "DSP.Kinetics.mn_auto_design_temp": 0.43650682842377864,
+      "DSP.Kinetics.kn_auto_design_temp": 0.50086112790122839,
+      "DSP.Kinetics.yn_auto_design_temp": 0.12,
+      "DSP.Kinetics.kdn_auto_design_temp": 0.058455216400158716,
+      "DSP.Kinetics.ko_auto_design_temp": 0.5,
+      "DSP.Reactor.Fill_ratio_Reactor_Req_Vol": 539.7540983606558,
+      "DSP.Reactor.MLSS_Sustain_Reactor_Req_Vol": 959.74813146086876,
+      "DSP.Reactor.Final_Req_Vol": 959.74813146086876,
+      "DSP.Biology.Specificgrowthrate_Auto": 0.1742148529668481,
+      "DSP.Biology.SRTmin": 5.7400387106505386,
+      "DSP.Biology.SRT_designed": 17.908920777229678,
+      "DSP.Biology.Influent_VSS": 159.30000000000004,
+      "DSP.Biology.Influent_nbVSS": 31.86,
+      "DSP.Biology.S": 0.8572165071465202,
+      "DSP.Biology.Infleunt_NOx": 35.800000000000004,
+      "DSP.Biology.Act_Biomass": 63.463220754076239,
+      "DSP.Biology.Endogenous_respiration_Biomass": 14.948489638493855,
+      "DSP.Biology.Nonbiodegradable_SS": 2.7641386329232764,
+      "DSP.Biology.nbVSS_Mass": 41.95962,
+      "DSP.Biology.PxVSS": 123.13546902549338,
+      "DSP.Biology.PxTSS": 160.7715188535216,
+      "DSP.Biology.Xvss_V": 2205.22335964458,
+      "DSP.Biology.Xtss_V": 2879.2443943826061,
+      "DSP.Biology.VSS_TSS_Ratio": 0.76590350021934972,
+      "DSP.flowtank.water_level_after": 3.0,
+      "DSP.flowtank.headloss_pipe": 0.0,
+      "DSP.Design_Check.Operational_MLSS": 3000.0,
+      "DSP.Design_Check.Operational_MLVSS": 2298.0,
+      "DSP.Design_Check.FM_ratio": 0.12110591338325194,
+      "DSP.Design_Check.Designed_HRT": 17.489715379696925,
+      "DSP.Design_Check.Designed_Fillratio": 0.34305875594551682,
+      "DSP.Nitrogen_Balance.Xn": 51.578886346934496,
+      "DSP.Nitrogen_Balance.NH4_conc_for_nitrification": 35.403567286971,
+      "DSP.Nitrogen_Balance.Vf_NOx": 5.8283122646176011,
+      "DSP.Nitrogen_Process.Nitrified_TN": 46.626498116940809,
+      "DSP.Nitrogen_Process.Denitrified_TN": 37.054201779383227,
+      "DSP.Nitrogen_Process.total_MLVSS_in_reactor": 2205.5012060970766,
+      "DSP.Nitrogen_Process.Total_Aeration_Time": 10.0,
+      "DSP.Nitrogen_Process.Total_Anoxic_Time": 5.333333333333333,
+      "DSP.Nitrogen_Process.Designed_SNR": 0.050738396864758922,
+      "DSP.Nitrogen_Process.Designed_SDNR": 0.0756036349226486,
+      "DSP.Aeration.OD1": 96.674532565928516,
+      "DSP.Aeration.OD2": 91.895883587378179,
+      "DSP.Aeration.OD3": 213.0830963944195,
+      "DSP.Aeration.OD4": 0.0,
+      "DSP.Aeration.Va": 399.895054775362,
+      "DSP.Aeration.MLVSS_Mass": 2.298,
+      "DSP.Aeration.AOR": 401.65351254772622,
+      "DSP.Aeration.Cs": 10.43,
+      "DSP.Aeration.Ca": 2.0,
+      "DSP.Aeration.alpha": 0.78192222492547725,
+      "DSP.Aeration.beta": 0.95,
+      "DSP.Aeration.Cs_correction_Factor": 1.244140625,
+      "DSP.Aeration.Atmospheric_Pressure": 760.0,
+      "DSP.Aeration.SOR": 661.31955390414475,
+      "DSP.Aeration.Gs": 21.967378967230605,
+      "DSP.Air_Blower.result_A": 156.0,
+      "DSP.Air_Blower.result_B": 156.0,
+      "DSP.Air_Blower.Pump_flowrate": 156.0,
+      "DSP.Air_Blower.FDCT_dia": 407.75580927805305,
+      "DSP.Air_Blower.fluid_velocity": 27.145273469387757,
+      "DSP.Air_Blower.darcy_friction_factor_pipe": 0.02,
+      "DSP.Air_Blower.length": 0.0,
+      "DSP.Air_Blower.Headloss_of_pipe": 0.0,
+      "DSP.Air_Blower.Headloss_of_silencer": 300.0,
+      "DSP.Air_Blower.Headloss_of_aerator": 300.0,
+      "DSP.Air_Blower.darcy_friction_factor_elbow": 0.75,
+      "DSP.Air_Blower.Number_of_elbow": 0.0,
+      "DSP.Air_Blower.Headloss_of_fitting": 300.0,
+      "DSP.Air_Blower.Totalheadloss": 5900.0,
+      "DSP.Aeration_Device.result_A": 156.0,
+      "DSP.Floating_Decanter.result_A": 156.0,
+      "DSP.Floating_Decanter.Pump_flowrate": 0.066666666666666666,
+      "DSP.Floating_Decanter.FDCT_dia": 26.655831131918081,
+      "DSP.Floating_Decanter.fluid_velocity": 0.022737066666666667,
+      "DSP.Floating_Decanter.darcy_friction_factor_pipe": 0.018,
+      "DSP.Floating_Decanter.length": 0.0,
+      "DSP.Floating_Decanter.Headloss_of_pipe": 0.0,
+      "DSP.Floating_Decanter.Headloss_of_effluent": 2.6376234724716551E-05,
+      "DSP.Floating_Decanter.Headloss_of_influent": 1.3188117362358276E-05,
+      "DSP.Floating_Decanter.darcy_friction_factor_elbow": 0.75,
+      "DSP.Floating_Decanter.Number_of_elbow": 0.0,
+      "DSP.Floating_Decanter.Headloss_of_elbow": 0.0,
+      "DSP.Floating_Decanter.Totalheadloss": 0.0,
+      "DSP.Valve.result_A": 200.0,
+      "DSP.Sludge_Discharge_Pump.result_A": 156.0,
+      "DSP.Sludge_Discharge_Pump.result_B": 156.0,
+      "DSP.Sludge_Discharge_Pump.Pump_flowrate": 4.0,
+      "DSP.Sludge_Discharge_Pump.FDCT_dia": 206.4751801064719,
+      "DSP.Sludge_Discharge_Pump.fluid_velocity": 1.364224,
+      "DSP.Sludge_Discharge_Pump.darcy_friction_factor_pipe": 4.12E-06,
+      "DSP.Sludge_Discharge_Pump.length": 0.0,
+      "DSP.Sludge_Discharge_Pump.Headloss_of_pipe": 0.0,
+      "DSP.Sludge_Discharge_Pump.Delta_Ha": 0.0,
+      "DSP.Sludge_Discharge_Pump.Headloss_of_fitting": 1.0,
+      "DSP.Sludge_Discharge_Pump.Totalheadloss": 1.0,
+      "DEP.Air_Blower.SOR_O2_Per_Day": 661.31955390414475,
+      "DEP.Air_Blower.T_C": 12.0,
+      "DEP.Air_Blower.EA_Percent": 18.0,
+      "DEP.Air_Blower.Aeration_Depth": 5.9,
+      "DEP.Air_Blower.Operation_Time": 10.0,
+      "DEP.Air_Blower.Safety_Factor": 0.0,
+      "DEP.Air_Blower.Pipe_Length": 100.0,
+      "DEP.Air_Blower.Safety_Factor_Motor": 10.0,
+      "DEP.Aeration_Device.SOR_O2_per_day": 661.31955390414475,
+      "DEP.Aeration_Device.Aeration_Depth": 5.0,
+      "DEP.Aeration_Device.Operation_time": 10.0,
+      "DEP.Aeration_Device.Number_of_Tank": 2.0,
+      "DEP.Aeration_Device.W": 10.3,
+      "DEP.Aeration_Device.L": 10.3,
+      "DEP.Aeration_Device.He": 6.0,
+      "DEP.Floating_Decanter.Inflow_Flowrate": 1300.9228481146479,
+      "DEP.Floating_Decanter.Discharge_Time": 1.0,
+      "DEP.Floating_Decanter.Number_of_Drives": 4.0,
+      "DEP.Floating_Decanter.Safety_Factor": 0.0,
+      "DEP.Valve.Determined_Diameter": 250.0,
+      "DEP.Control_Panel.Inflow_Flowrate": 1317.0,
+      "DEP.Sludge_Discharge_Pump.Inflow_Flowrate": 16.077151885352158,
+      "DEP.Sludge_Discharge_Pump.Solid_Concenctration": 0.0014159999999999997,
+      "DEP.Sludge_Discharge_Pump.Operation_Time": 0.3,
+      "DEP.Sludge_Discharge_Pump.Specific_Gravity_Influent": 1.0,
+      "DEP.Sludge_Discharge_Pump.Safety_Factor": 0.0,
+      "DEP.Sludge_Discharge_Pump.Total_Dynamic_Head": 1.0,
+      "DEP.Sludge_Discharge_Pump.Pipe_Length": 50.0,
+      "DEP.Sludge_Discharge_Pump.Pump_Efficiency": 37.6,
+      "STC.flowtank.name": "SBR tank",
+      "STC.flowtank.code_key": "S_CONC",
+      "STC.flowtank.tank_number": 2,
+      "STC.flowtank.layout_type": "S_CON01D",
+      "STC.flowtank.layout_type_number": 2,
+      "STC.flowtank.required_capacity": 959.80109089285588,
+      "STC.flowtank.applied_capacity": 1060.9,
+      "STC.flowtank.W": 10.3,
+      "STC.flowtank.L": 10.3,
+      "STC.flowtank.height": 6.0,
+      "STC.flowtank.water_level": 5.0,
+      "STC.flowtank.diameter": 11.6,
+      "STC.flowtank.file_name": "251217_D-Type_jhs.py",
+      "STC.flowtank.file_uri": "wai-formula-library/38ec23f6-d5db-4441-8ca1-a1c5bd874962/251217_D-Type_jhs.py",
+      "STC.flowtank.no": null,
+      "STC.flowtank.size": 0.0,
+      "STC.flowtank.bm": "N/A",
+      "STC.flowtank.pipe_length": 0.0,
+      "STC.flowtank.tee_joint_count": 0.0,
+      "STC.flowtank.elbow_count": 0.0,
+      "STC.flowtank.pipe_max_height": 0.0,
+      "STC.flowtank.pipe_min_height": 0.0,
+      "STC.flowtank.elevation_level": 5.0,
+      "STC.flowtank.forward_result.Floor1": "min: (-300, -300, -300), max: (10600, 10600, 0)",
+      "STC.flowtank.forward_result.Floor2": "min: (-300, -300, 6000), max: (10600, 10600, 6300)",
+      "STC.flowtank.forward_result.Wall1": "min: (-300, -300, 0), max: (10600, 0, 6000)",
+      "STC.flowtank.forward_result.Wall2": "min: (10300, 0, 0), max: (10600, 10300, 6000)",
+      "STC.flowtank.forward_result.Wall3": "min: (-300, 10300, 0), max: (10600, 10600, 6000)",
+      "STC.flowtank.forward_result.Wall4": "min: (-300, -300, 0), max: (0, 10300, 6000)",
+      "STC.flowtank.reverse_result.용량검증결과": true,
+      "STC.flowtank.level_result.elevation": 5.0,
+      "STC.flowtank.level_result.head_loss": 0.065,
+      "STC.flowtank.level_drawing.Level1": "min: (0, 4.7), max: (5.6, 11.3)",
+      "STC.flowtank.level_drawing.Level2": "min: (0.3, 5), max: (5, 11)",
+      "STC.flowtank.level_drawing.Level3": "min: (0.3, 5), max: (5, 8), elevation_level: 8.065",
+      "STC.flowtank.level_drawing.Level4": "min: (0.3, 5), max: (5, 10), elevation_level: 10.065",
+      "EQP.Air_Blower.name": "생물반응조 송풍기",
+      "EQP.Air_Blower.code_key": "M_AEB0101",
+      "EQP.Air_Blower.normal_count": 2.0,
+      "EQP.Air_Blower.spare_count": 1.0,
+      "EQP.Air_Blower.unit": "",
+      "EQP.Air_Blower.structure": "152977889399",
+      "EQP.Air_Blower.total_required_capacity": 1.0,
+      "EQP.Air_Blower.unit_required_capacity": "156.0m3/min 156.0 mmAq",
+      "EQP.Air_Blower.applied_capacity": "",
+      "EQP.Air_Blower.file_name": "251203_Turbo_Blower_M_AEB0101.py",
+      "EQP.Air_Blower.file_uri": "wai-formula-library/2b6d2027-484e-4555-b0dc-bc089c21513a/251203_Turbo_Blower_M_AEB0101.py",
+      "EQP.Air_Blower.manufacturer": "(주)부강테크/터보맥스",
+      "EQP.Air_Blower.model_name": "MAX30-C70 (데모)",
+      "EQP.Air_Blower.unit_price": 62000000.0,
+      "EQP.Air_Blower.power_kW": 22.0,
+      "EQP.Air_Blower.tag_number": 1,
+      "EQP.Air_Blower.spec1": "터보 블로워(VVVF)",
+      "EQP.Air_Blower.spec2": "None",
+      "EQP.Air_Blower.qty": 3.0,
+      "EQP.Air_Blower.no": null,
+      "EQP.Air_Blower.size": 100.0,
+      "EQP.Air_Blower.bm": "N/A",
+      "EQP.Air_Blower.pipe_length": 0.0,
+      "EQP.Air_Blower.tee_joint_count": 0.0,
+      "EQP.Air_Blower.elbow_count": 0.0,
+      "EQP.Air_Blower.pipe_max_height": 0.0,
+      "EQP.Air_Blower.pipe_min_height": 0.0,
+      "EQP.Air_Blower.ctrl_method": null,
+      "EQP.Air_Blower.rated_volt_V": 0.0,
+      "EQP.Air_Blower.efficiency_percent": 0.0,
+      "EQP.Air_Blower.pwr_factor_percent": 0.0,
+      "EQP.Air_Blower.demand_factor_percent": 0.0,
+      "EQP.Air_Blower.total_wgt_kg": 0.0,
+      "EQP.Air_Blower.outputs.query": "max_capacity_m3_min, discharge_pressure_mmAq",
+      "EQP.Air_Blower.outputs.param": "max_capacity_m3_min, discharge_pressure_mmAq",
+      "EQP.Air_Blower.outputs.max_capacity_m3_min": "5.3",
+      "EQP.Air_Blower.outputs.power": "7.5",
+      "EQP.Air_Blower.outputs.discharge_pressure_mmAq": "6900",
+      "EQP.Air_Blower.outputs.horsepower": "10",
+      "EQP.Air_Blower.outputs.operating_unit_count": "2",
+      "EQP.Aeration_Device.name": "생물반응조 수중포기기",
+      "EQP.Aeration_Device.code_key": "M_AQR05",
+      "EQP.Aeration_Device.normal_count": 2.0,
+      "EQP.Aeration_Device.spare_count": 0.0,
+      "EQP.Aeration_Device.unit": "",
+      "EQP.Aeration_Device.structure": "152977889399",
+      "EQP.Aeration_Device.total_required_capacity": 1.0,
+      "EQP.Aeration_Device.unit_required_capacity": "156.0kgO2/hr",
+      "EQP.Aeration_Device.applied_capacity": "",
+      "EQP.Aeration_Device.file_name": "251203_Aeration_Device_M_AQR05.py",
+      "EQP.Aeration_Device.file_uri": "wai-formula-library/01d03f27-adb6-4503-9b13-80ff3d49662b/251203_Aeration_Device_M_AQR05.py",
+      "EQP.Aeration_Device.manufacturer": "(주)부강테크/삼진",
+      "EQP.Aeration_Device.model_name": "AQR-110D (데모)",
+      "EQP.Aeration_Device.unit_price": 93800000.0,
+      "EQP.Aeration_Device.power_kW": 11.0,
+      "EQP.Aeration_Device.tag_number": 1,
+      "EQP.Aeration_Device.spec1": "수중포기기(인양장치 제외)",
+      "EQP.Aeration_Device.spec2": "None",
+      "EQP.Aeration_Device.qty": 2.0,
+      "EQP.Aeration_Device.no": null,
+      "EQP.Aeration_Device.size": 100.0,
+      "EQP.Aeration_Device.bm": "N/A",
+      "EQP.Aeration_Device.pipe_length": 0.0,
+      "EQP.Aeration_Device.tee_joint_count": 0.0,
+      "EQP.Aeration_Device.elbow_count": 0.0,
+      "EQP.Aeration_Device.pipe_max_height": 0.0,
+      "EQP.Aeration_Device.pipe_min_height": 0.0,
+      "EQP.Aeration_Device.ctrl_method": null,
+      "EQP.Aeration_Device.rated_volt_V": 0.0,
+      "EQP.Aeration_Device.efficiency_percent": 0.0,
+      "EQP.Aeration_Device.pwr_factor_percent": 0.0,
+      "EQP.Aeration_Device.demand_factor_percent": 0.0,
+      "EQP.Aeration_Device.total_wgt_kg": 0.0,
+      "EQP.Aeration_Device.outputs.query": "o2_transfer_rate_kgO2_h",
+      "EQP.Aeration_Device.outputs.param": "o2_transfer_rate_kgO2_h",
+      "EQP.Aeration_Device.outputs.o2_transfer_rate_kgO2_h": "33.1",
+      "EQP.Aeration_Device.outputs.operating_unit_count": "0",
+      "EQP.Floating_Decanter.name": "상등수 배출장치",
+      "EQP.Floating_Decanter.code_key": "M_FDC01",
+      "EQP.Floating_Decanter.normal_count": 2.0,
+      "EQP.Floating_Decanter.spare_count": 0.0,
+      "EQP.Floating_Decanter.unit": "",
+      "EQP.Floating_Decanter.structure": "152977889399",
+      "EQP.Floating_Decanter.total_required_capacity": 1.0,
+      "EQP.Floating_Decanter.unit_required_capacity": "156.0m3/hr",
+      "EQP.Floating_Decanter.applied_capacity": "",
+      "EQP.Floating_Decanter.file_name": "251203_Floating_Decanter_r3_M_FDC01.py",
+      "EQP.Floating_Decanter.file_uri": "wai-formula-library/2248c8a8-c864-4f4c-b824-58e72ad609e8/251203_Floating_Decanter_r3_M_FDC01.py",
+      "EQP.Floating_Decanter.manufacturer": "(주)부강테크",
+      "EQP.Floating_Decanter.model_name": "BKD-250 (dtdx)",
+      "EQP.Floating_Decanter.unit_price": 70200000.0,
+      "EQP.Floating_Decanter.power_kW": 0.0,
+      "EQP.Floating_Decanter.tag_number": 1,
+      "EQP.Floating_Decanter.spec1": "무동력 부력식",
+      "EQP.Floating_Decanter.spec2": "None",
+      "EQP.Floating_Decanter.qty": 2.0,
+      "EQP.Floating_Decanter.no": null,
+      "EQP.Floating_Decanter.size": 250.0,
+      "EQP.Floating_Decanter.bm": "N/A",
+      "EQP.Floating_Decanter.pipe_length": 0.0,
+      "EQP.Floating_Decanter.tee_joint_count": 0.0,
+      "EQP.Floating_Decanter.elbow_count": 0.0,
+      "EQP.Floating_Decanter.pipe_max_height": 0.0,
+      "EQP.Floating_Decanter.pipe_min_height": 0.0,
+      "EQP.Floating_Decanter.ctrl_method": null,
+      "EQP.Floating_Decanter.rated_volt_V": 0.0,
+      "EQP.Floating_Decanter.efficiency_percent": 0.0,
+      "EQP.Floating_Decanter.pwr_factor_percent": 0.0,
+      "EQP.Floating_Decanter.demand_factor_percent": 0.0,
+      "EQP.Floating_Decanter.total_wgt_kg": 0.0,
+      "EQP.Floating_Decanter.outputs.query": "max_capacity_m3_h",
+      "EQP.Floating_Decanter.outputs.param": "max_capacity_m3_h",
+      "EQP.Floating_Decanter.outputs.max_capacity_m3_h": "162.62",
+      "EQP.Floating_Decanter.outputs.decanter_diameter": "250",
+      "EQP.Floating_Decanter.outputs.diameter": "350",
+      "EQP.Floating_Decanter.outputs.operating_unit_count": "2",
+      "EQP.Valve.name": "밸브",
+      "EQP.Valve.code_key": "M_VAV0201",
+      "EQP.Valve.normal_count": 2.0,
+      "EQP.Valve.spare_count": 0.0,
+      "EQP.Valve.unit": "",
+      "EQP.Valve.structure": "152977889399",
+      "EQP.Valve.total_required_capacity": 1.0,
+      "EQP.Valve.unit_required_capacity": "200.0mm",
+      "EQP.Valve.applied_capacity": "",
+      "EQP.Valve.file_name": "251203_Valve_M_VAV0201.py",
+      "EQP.Valve.file_uri": "wai-formula-library/3cc9fa05-7a15-4338-abb6-25501700ad82/251203_Valve_M_VAV0201.py",
+      "EQP.Valve.manufacturer": "경진산업",
+      "EQP.Valve.model_name": "200_10 (dtdx)",
+      "EQP.Valve.unit_price": 10964400.0,
+      "EQP.Valve.power_kW": 0.4,
+      "EQP.Valve.tag_number": 1,
+      "EQP.Valve.spec1": "전동식(1상식) 버터플라이 밸브",
+      "EQP.Valve.spec2": "None",
+      "EQP.Valve.qty": 2.0,
+      "EQP.Valve.no": null,
+      "EQP.Valve.size": 200.0,
+      "EQP.Valve.bm": "N/A",
+      "EQP.Valve.pipe_length": 0.0,
+      "EQP.Valve.tee_joint_count": 0.0,
+      "EQP.Valve.elbow_count": 0.0,
+      "EQP.Valve.pipe_max_height": 0.0,
+      "EQP.Valve.pipe_min_height": 0.0,
+      "EQP.Valve.ctrl_method": null,
+      "EQP.Valve.rated_volt_V": 0.0,
+      "EQP.Valve.efficiency_percent": 0.0,
+      "EQP.Valve.pwr_factor_percent": 0.0,
+      "EQP.Valve.demand_factor_percent": 0.0,
+      "EQP.Valve.total_wgt_kg": 0.0,
+      "EQP.Valve.outputs.query": "diameter_mm",
+      "EQP.Valve.outputs.param": "diameter_mm",
+      "EQP.Valve.outputs.diameter_mm": "200",
+      "EQP.Valve.outputs.operating_unit_count": "2",
+      "EQP.Control_Panel.name": "공법제어반",
+      "EQP.Control_Panel.code_key": "M_CTR0102",
+      "EQP.Control_Panel.normal_count": 1.0,
+      "EQP.Control_Panel.spare_count": 0.0,
+      "EQP.Control_Panel.unit": "",
+      "EQP.Control_Panel.structure": "152977889399",
+      "EQP.Control_Panel.total_required_capacity": 1.0,
+      "EQP.Control_Panel.unit_required_capacity": "자동제어반",
+      "EQP.Control_Panel.applied_capacity": "",
+      "EQP.Control_Panel.file_name": "251208_process_control_panel_M_CTR01_done_r2.py",
+      "EQP.Control_Panel.file_uri": "wai-formula-library/13e8962c-254a-429d-b0fd-7c122927d55e/251208_process_control_panel_M_CTR01_done_r2.py",
+      "EQP.Control_Panel.manufacturer": "(주)부강테크",
+      "EQP.Control_Panel.model_name": "BCS하수 (dtdx)",
+      "EQP.Control_Panel.unit_price": 485000000.0,
+      "EQP.Control_Panel.power_kW": 0.0,
+      "EQP.Control_Panel.tag_number": 1,
+      "EQP.Control_Panel.spec1": "BCS 하수 제어반",
+      "EQP.Control_Panel.spec2": "None",
+      "EQP.Control_Panel.qty": 1.0,
+      "EQP.Control_Panel.no": null,
+      "EQP.Control_Panel.size": 0.0,
+      "EQP.Control_Panel.bm": "N/A",
+      "EQP.Control_Panel.pipe_length": 0.0,
+      "EQP.Control_Panel.tee_joint_count": 0.0,
+      "EQP.Control_Panel.elbow_count": 0.0,
+      "EQP.Control_Panel.pipe_max_height": 0.0,
+      "EQP.Control_Panel.pipe_min_height": 0.0,
+      "EQP.Control_Panel.ctrl_method": null,
+      "EQP.Control_Panel.rated_volt_V": 0.0,
+      "EQP.Control_Panel.efficiency_percent": 0.0,
+      "EQP.Control_Panel.pwr_factor_percent": 0.0,
+      "EQP.Control_Panel.demand_factor_percent": 0.0,
+      "EQP.Control_Panel.total_wgt_kg": 0.0,
+      "EQP.Control_Panel.outputs.query": "max_capacity_m3_d",
+      "EQP.Control_Panel.outputs.param": "max_capacity_m3_d",
+      "EQP.Control_Panel.outputs.max_capacity_m3_d": "1317",
+      "EQP.Control_Panel.outputs.normal_count": "1",
+      "EQP.Sludge_Discharge_Pump.name": "잉여슬러지 배출펌프",
+      "EQP.Sludge_Discharge_Pump.code_key": "M_PMP0601",
+      "EQP.Sludge_Discharge_Pump.normal_count": 2.0,
+      "EQP.Sludge_Discharge_Pump.spare_count": 1.0,
+      "EQP.Sludge_Discharge_Pump.unit": "",
+      "EQP.Sludge_Discharge_Pump.structure": "152977889399",
+      "EQP.Sludge_Discharge_Pump.total_required_capacity": 1.0,
+      "EQP.Sludge_Discharge_Pump.unit_required_capacity": "156.0m3/min 156.0 mH",
+      "EQP.Sludge_Discharge_Pump.applied_capacity": "",
+      "EQP.Sludge_Discharge_Pump.file_name": "251203_Spurt_Pump_M_PMP0601_r2.py",
+      "EQP.Sludge_Discharge_Pump.file_uri": "wai-formula-library/95d3a074-1587-49b3-bd5c-c667ddf6f252/251203_Spurt_Pump_M_PMP0601_r2.py",
+      "EQP.Sludge_Discharge_Pump.manufacturer": "삼흥산업",
+      "EQP.Sludge_Discharge_Pump.model_name": "SH-50A (데모)",
+      "EQP.Sludge_Discharge_Pump.unit_price": 10987000.0,
+      "EQP.Sludge_Discharge_Pump.power_kW": 7.5,
+      "EQP.Sludge_Discharge_Pump.tag_number": 1,
+      "EQP.Sludge_Discharge_Pump.spec1": "스프르트펌프",
+      "EQP.Sludge_Discharge_Pump.spec2": "None",
+      "EQP.Sludge_Discharge_Pump.qty": 3.0,
+      "EQP.Sludge_Discharge_Pump.no": null,
+      "EQP.Sludge_Discharge_Pump.size": 100.0,
+      "EQP.Sludge_Discharge_Pump.bm": "N/A",
+      "EQP.Sludge_Discharge_Pump.pipe_length": 0.0,
+      "EQP.Sludge_Discharge_Pump.tee_joint_count": 0.0,
+      "EQP.Sludge_Discharge_Pump.elbow_count": 0.0,
+      "EQP.Sludge_Discharge_Pump.pipe_max_height": 0.0,
+      "EQP.Sludge_Discharge_Pump.pipe_min_height": 0.0,
+      "EQP.Sludge_Discharge_Pump.ctrl_method": null,
+      "EQP.Sludge_Discharge_Pump.rated_volt_V": 0.0,
+      "EQP.Sludge_Discharge_Pump.efficiency_percent": 0.0,
+      "EQP.Sludge_Discharge_Pump.pwr_factor_percent": 0.0,
+      "EQP.Sludge_Discharge_Pump.demand_factor_percent": 0.0,
+      "EQP.Sludge_Discharge_Pump.total_wgt_kg": 0.0,
+      "EQP.Sludge_Discharge_Pump.outputs.query": "max_capacity_m3_min, max_power_kW",
+      "EQP.Sludge_Discharge_Pump.outputs.param": "max_capacity_m3_min, total_dynamic_head",
+      "EQP.Sludge_Discharge_Pump.outputs.max_capacity_m3_min": "0.4",
+      "EQP.Sludge_Discharge_Pump.outputs.total_dynamic_head": "7",
+      "EQP.Sludge_Discharge_Pump.outputs.max_power_kW": "2.2",
+      "EQP.Sludge_Discharge_Pump.outputs.operating_unit_count": "3"
+    },
+    {
+      "process_id": "PRO_EQT_F",
+      "process_name": "PRO_2_EQT_Type_D_E_G_F",
+      "process_no": 2,
+      "DCN.influents.q": 1.0,
+      "DCN.influents.bodload": 1.0,
+      "DCN.influents.sbodload": 1.0,
+      "DCN.influents.ibodload": 0.0,
+      "DCN.influents.codload": 1.0,
+      "DCN.influents.tocload": 1.0,
+      "DCN.influents.ssload": 1.0,
+      "DCN.influents.tnload": 1.0,
+      "DCN.influents.tpload": 1.0,
+      "DCN.influents.bod": 1000.0,
+      "DCN.influents.sbod": 1000.0,
+      "DCN.influents.ibod": 0.0,
+      "DCN.influents.cod": 1000.0,
+      "DCN.influents.toc": 1000.0,
+      "DCN.influents.ss": 1000.0,
+      "DCN.influents.tn": 1000.0,
+      "DCN.influents.tp": 1000.0,
+      "DCN.influents.temp": 12.0,
+      "DCN.efficiency.bodload": 0.0,
+      "DCN.efficiency.ibodload": 0.0,
+      "DCN.efficiency.sbodload": 0.0,
+      "DCN.efficiency.codload": 0.0,
+      "DCN.efficiency.tocload": 0.0,
+      "DCN.efficiency.ssload": 0.0,
+      "DCN.efficiency.tnload": 0.0,
+      "DCN.efficiency.tpload": 0.0,
+      "DCN.effluents.water.q": 1.0,
+      "DCN.effluents.water.bodload": 1.0,
+      "DCN.effluents.water.sbodload": 1.0,
+      "DCN.effluents.water.ibodload": 0.0,
+      "DCN.effluents.water.codload": 1.0,
+      "DCN.effluents.water.tocload": 1.0,
+      "DCN.effluents.water.ssload": 1.0,
+      "DCN.effluents.water.tnload": 1.0,
+      "DCN.effluents.water.tpload": 1.0,
+      "DCN.effluents.water.bod": 1000.0,
+      "DCN.effluents.water.sbod": 1000.0,
+      "DCN.effluents.water.ibod": 0.0,
+      "DCN.effluents.water.cod": 1000.0,
+      "DCN.effluents.water.toc": 1000.0,
+      "DCN.effluents.water.ss": 1000.0,
+      "DCN.effluents.water.tn": 1000.0,
+      "DCN.effluents.water.tp": 1000.0,
+      "DCN.info.water.no": "1",
+      "DCN.info.water.comp": "PRO_2_EQT_Type_D_E_G_F_water",
+      "DCN.info.water.size": "100A",
+      "DCN.info.water.bm": "STS304",
+      "DCN.info.water.key": "water",
+      "DCN.info.water.raw": "water",
+      "DCR.Designed_HRT": 20.833333333333332,
+      "DCP.HRT.HRT_Eqtank": 6.0,
+      "DCP.HRT.HRT_pHtank": 0.16666666666666666,
+      "DCP.SBR_reactor.Cycle": 4.0,
+      "DCP.SBR_reactor.Tank_Number": 2.0,
+      "DCP.SBR_reactor.Influent_Time": 1.3,
+      "DSP.eqtank.Flowrate_Eqtank": 1.0,
+      "DSP.eqtank.Flowrate_Eqtank_hr": 0.041666666666666664,
+      "DSP.eqtank.Final_Req_Vol": 0.25,
+      "DSP.eqtank.pH_adjust_reactor_req_Vol": 0.0069444444444444441,
+      "DSP.eqtank.PH_WW1": 3.0,
+      "DSP.eqtank.PH_WL1": 2.0,
+      "DSP.eqtank.PH_WH1": 3.5,
+      "DSP.eqtank.PH_WH2": 2.5,
+      "DSP.eqtank.Actual_HRT": 11.666666666666666,
+      "DSP.eqtank.pump_number": 2.0,
+      "DEP.Sludge_Discharge_Pump.Inflow_Flowrate": 1.0,
+      "DEP.Sludge_Discharge_Pump.Solid_Concenctration": 0.1,
+      "DEP.Sludge_Discharge_Pump.Operation_Time": 10.4,
+      "DEP.Sludge_Discharge_Pump.normal_count": 2.0,
+      "DEP.Sludge_Discharge_Pump.Specific_Gravity_Influent": 1.0,
+      "DEP.Sludge_Discharge_Pump.Safety_Factor": 20.0,
+      "DEP.Sludge_Discharge_Pump.Total_Dynamic_Head": 10.0,
+      "DEP.Sludge_Discharge_Pump.Pipe_length": 50.0,
+      "DEP.Sludge_Discharge_Pump.Pump_Motor_Efficiency": 37.6,
+      "DEP.eqTank_Mixer.normal_count": 2.0,
+      "DEP.eqTank_Mixer.Number_of_Tank": 1.0,
+      "DEP.eqTank_Mixer.Safety_Factor": 10.0,
+      "DEP.eqTank_Mixer.W": 10.0,
+      "DEP.eqTank_Mixer.L": 10.0,
+      "DEP.eqTank_Mixer.He": 5.0,
+      "DEP.eqtank_pH_Mixer.normal_count": 1.0,
+      "DEP.eqtank_pH_Mixer.Number_of_Tank": 1.0,
+      "DEP.eqtank_pH_Mixer.W": 10.0,
+      "DEP.eqtank_pH_Mixer.L": 10.0,
+      "DEP.eqtank_pH_Mixer.He": 5.0,
+      "STC.eqtank.name": "EQT tank with pH adjust reactor",
+      "STC.eqtank.code_key": "S_CONC",
+      "STC.eqtank.tank_number": 1,
+      "STC.eqtank.layout_type": "S_CON02E",
+      "STC.eqtank.layout_type_number": 1,
+      "STC.eqtank.required_capacity": 0.25,
+      "STC.eqtank.applied_capacity": 500.0,
+      "STC.eqtank.W": 10.0,
+      "STC.eqtank.L": 10.0,
+      "STC.eqtank.height": 6.0,
+      "STC.eqtank.water_level": 5.0,
+      "STC.eqtank.diameter": 0.3,
+      "STC.eqtank.file_name": "S_CON02E____251210_Rev00_v15.py",
+      "STC.eqtank.file_uri": "wai-formula-library/1e4df2cd-ba49-4370-be89-5a26e639c9df/S_CON02E____251210_Rev00_v15.py",
+      "STC.eqtank.no": null,
+      "STC.eqtank.size": 0.0,
+      "STC.eqtank.bm": "N/A",
+      "STC.eqtank.pipe_length": 0.0,
+      "STC.eqtank.tee_joint_count": 0.0,
+      "STC.eqtank.elbow_count": 0.0,
+      "STC.eqtank.pipe_max_height": 0.0,
+      "STC.eqtank.pipe_min_height": 0.0,
+      "STC.eqtank.elevation_level": 5.0,
+      "STC.eqtank.forward_result.Floor1": "min: (-300, -300, -300), max: (10300, 10300, 0)",
+      "STC.eqtank.forward_result.Floor2": "min: (-300, -300, 6000), max: (10300, 10300, 6300)",
+      "STC.eqtank.forward_result.Wall1": "min: (-300, -300, 0), max: (10300, 0, 6000)",
+      "STC.eqtank.forward_result.Wall2": "min: (10000, 0, 0), max: (10300, 10000, 6000)",
+      "STC.eqtank.forward_result.Wall3": "min: (-300, 10000, 0), max: (10300, 10300, 6000)",
+      "STC.eqtank.forward_result.Wall4": "min: (-300, 0, 0), max: (0, 10000, 6000)",
+      "STC.eqtank.forward_result.Wall5": "min: (3200, 0, 2200), max: (6800, 2300, 2500)",
+      "STC.eqtank.forward_result.Wall6": "min: (3200, 2000, 2500), max: (6800, 2300, 6000)",
+      "STC.eqtank.forward_result.Wall7": "min: (3200, 0, 2500), max: (3500, 2000, 5000)",
+      "STC.eqtank.forward_result.Wall8": "min: (6500, 0, 2500), max: (6800, 2000, 5000)",
+      "STC.eqtank.reverse_result.용량검증결과": true,
+      "STC.eqtank.level_result": null,
+      "STC.eqtank.level_drawing.Level1": "min: (0, 0), max: (0, 0)",
+      "EQP.Sludge_Discharge_Pump.name": "유량조정조 유출펌프",
+      "EQP.Sludge_Discharge_Pump.code_key": "M_PMP0302",
+      "EQP.Sludge_Discharge_Pump.normal_count": 2.0,
+      "EQP.Sludge_Discharge_Pump.spare_count": 1.0,
+      "EQP.Sludge_Discharge_Pump.unit": "",
+      "EQP.Sludge_Discharge_Pump.structure": "152977871955",
+      "EQP.Sludge_Discharge_Pump.total_required_capacity": 1.0,
+      "EQP.Sludge_Discharge_Pump.unit_required_capacity": "",
+      "EQP.Sludge_Discharge_Pump.applied_capacity": "",
+      "EQP.Sludge_Discharge_Pump.file_name": "251203_Submersible_Pump_M_PMP0302_done.py",
+      "EQP.Sludge_Discharge_Pump.file_uri": "wai-formula-library/c010630e-9722-4d9a-ac40-da1769e8117e/251203_Submersible_Pump_M_PMP0302_done.py",
+      "EQP.Sludge_Discharge_Pump.manufacturer": "동해엔지니어링",
+      "EQP.Sludge_Discharge_Pump.model_name": "50DHS-0.75",
+      "EQP.Sludge_Discharge_Pump.unit_price": 1010000.0,
+      "EQP.Sludge_Discharge_Pump.power_kW": 0.75,
+      "EQP.Sludge_Discharge_Pump.tag_number": 1,
+      "EQP.Sludge_Discharge_Pump.spec1": "수중오수모터펌프(자동탈착식)",
+      "EQP.Sludge_Discharge_Pump.spec2": "None",
+      "EQP.Sludge_Discharge_Pump.qty": 3.0,
+      "EQP.Sludge_Discharge_Pump.no": null,
+      "EQP.Sludge_Discharge_Pump.size": 0.0,
+      "EQP.Sludge_Discharge_Pump.bm": "N/A",
+      "EQP.Sludge_Discharge_Pump.pipe_length": 0.0,
+      "EQP.Sludge_Discharge_Pump.tee_joint_count": 0.0,
+      "EQP.Sludge_Discharge_Pump.elbow_count": 0.0,
+      "EQP.Sludge_Discharge_Pump.pipe_max_height": 0.0,
+      "EQP.Sludge_Discharge_Pump.pipe_min_height": 0.0,
+      "EQP.Sludge_Discharge_Pump.ctrl_method": null,
+      "EQP.Sludge_Discharge_Pump.rated_volt_V": 0.0,
+      "EQP.Sludge_Discharge_Pump.efficiency_percent": 0.0,
+      "EQP.Sludge_Discharge_Pump.pwr_factor_percent": 0.0,
+      "EQP.Sludge_Discharge_Pump.demand_factor_percent": 0.0,
+      "EQP.Sludge_Discharge_Pump.total_wgt_kg": 0.0,
+      "EQP.Sludge_Discharge_Pump.outputs.query": "max_capacity_m3_min, max_power_kW",
+      "EQP.Sludge_Discharge_Pump.outputs.param": "max_capacity_m3_min, total_dynamic_head",
+      "EQP.Sludge_Discharge_Pump.outputs.max_capacity_m3_min": "0",
+      "EQP.Sludge_Discharge_Pump.outputs.total_dynamic_head": "16",
+      "EQP.Sludge_Discharge_Pump.outputs.max_power_kW": "0.4",
+      "EQP.Sludge_Discharge_Pump.outputs.operating_unit_count": "2",
+      "EQP.eqTank_Mixer.name": "유량조정조 교반기",
+      "EQP.eqTank_Mixer.code_key": "M_AGT0602",
+      "EQP.eqTank_Mixer.normal_count": 2.0,
+      "EQP.eqTank_Mixer.spare_count": 0.0,
+      "EQP.eqTank_Mixer.unit": "",
+      "EQP.eqTank_Mixer.structure": "152977871955",
+      "EQP.eqTank_Mixer.total_required_capacity": 1.0,
+      "EQP.eqTank_Mixer.unit_required_capacity": "",
+      "EQP.eqTank_Mixer.applied_capacity": "",
+      "EQP.eqTank_Mixer.file_name": "251208_Horizontal_Mixer_M_AGT0602_done_jyj.py",
+      "EQP.eqTank_Mixer.file_uri": "wai-formula-library/8f9374f1-9ce3-4ea3-9eb3-8a4b66d91f2c/251208_Horizontal_Mixer_M_AGT0602_done_jyj.py",
+      "EQP.eqTank_Mixer.manufacturer": "삼진공업",
+      "EQP.eqTank_Mixer.model_name": "SMS-044-2B",
+      "EQP.eqTank_Mixer.unit_price": 999.0,
+      "EQP.eqTank_Mixer.power_kW": 0.4,
+      "EQP.eqTank_Mixer.tag_number": 1,
+      "EQP.eqTank_Mixer.spec1": "수중횡축 프로펠러형 (인양장치, 모니터링유니트 포함)",
+      "EQP.eqTank_Mixer.spec2": "None",
+      "EQP.eqTank_Mixer.qty": 2.0,
+      "EQP.eqTank_Mixer.no": null,
+      "EQP.eqTank_Mixer.size": 0.0,
+      "EQP.eqTank_Mixer.bm": "N/A",
+      "EQP.eqTank_Mixer.pipe_length": 0.0,
+      "EQP.eqTank_Mixer.tee_joint_count": 0.0,
+      "EQP.eqTank_Mixer.elbow_count": 0.0,
+      "EQP.eqTank_Mixer.pipe_max_height": 0.0,
+      "EQP.eqTank_Mixer.pipe_min_height": 0.0,
+      "EQP.eqTank_Mixer.ctrl_method": null,
+      "EQP.eqTank_Mixer.rated_volt_V": 0.0,
+      "EQP.eqTank_Mixer.efficiency_percent": 0.0,
+      "EQP.eqTank_Mixer.pwr_factor_percent": 0.0,
+      "EQP.eqTank_Mixer.demand_factor_percent": 0.0,
+      "EQP.eqTank_Mixer.total_wgt_kg": 0.0,
+      "EQP.eqTank_Mixer.outputs.query": "agitated_volume_m3",
+      "EQP.eqTank_Mixer.outputs.param": "agitated_volume_m3",
+      "EQP.eqTank_Mixer.outputs.agitated_volume_m3": "275",
+      "EQP.eqTank_Mixer.outputs.power": "5.5",
+      "EQP.eqTank_Mixer.outputs.normal_count": "2",
+      "EQP.eqtank_pH_Mixer.name": "pH조정조 교반기",
+      "EQP.eqtank_pH_Mixer.code_key": "M_AGT0701",
+      "EQP.eqtank_pH_Mixer.normal_count": 1.0,
+      "EQP.eqtank_pH_Mixer.spare_count": 0.0,
+      "EQP.eqtank_pH_Mixer.unit": "",
+      "EQP.eqtank_pH_Mixer.structure": "152977871955",
+      "EQP.eqtank_pH_Mixer.total_required_capacity": 1.0,
+      "EQP.eqtank_pH_Mixer.unit_required_capacity": "",
+      "EQP.eqtank_pH_Mixer.applied_capacity": "",
+      "EQP.eqtank_pH_Mixer.file_name": "251208_Vertical_MixerM_AGT0701_done.py",
+      "EQP.eqtank_pH_Mixer.file_uri": "wai-formula-library/a44296cd-e210-4b52-86b8-6f9b2e21b55a/251208_Vertical_MixerM_AGT0701_done.py",
+      "EQP.eqtank_pH_Mixer.manufacturer": "(주)부강테크/창신",
+      "EQP.eqtank_pH_Mixer.model_name": "데모 시나리오 샘플",
+      "EQP.eqtank_pH_Mixer.unit_price": 0.0,
+      "EQP.eqtank_pH_Mixer.power_kW": 0.75,
+      "EQP.eqtank_pH_Mixer.tag_number": 1,
+      "EQP.eqtank_pH_Mixer.spec1": "수직 입축 하이드로포일형",
+      "EQP.eqtank_pH_Mixer.spec2": "None",
+      "EQP.eqtank_pH_Mixer.qty": 1.0,
+      "EQP.eqtank_pH_Mixer.no": null,
+      "EQP.eqtank_pH_Mixer.size": 0.0,
+      "EQP.eqtank_pH_Mixer.bm": "N/A",
+      "EQP.eqtank_pH_Mixer.pipe_length": 0.0,
+      "EQP.eqtank_pH_Mixer.tee_joint_count": 0.0,
+      "EQP.eqtank_pH_Mixer.elbow_count": 0.0,
+      "EQP.eqtank_pH_Mixer.pipe_max_height": 0.0,
+      "EQP.eqtank_pH_Mixer.pipe_min_height": 0.0,
+      "EQP.eqtank_pH_Mixer.ctrl_method": null,
+      "EQP.eqtank_pH_Mixer.rated_volt_V": 0.0,
+      "EQP.eqtank_pH_Mixer.efficiency_percent": 0.0,
+      "EQP.eqtank_pH_Mixer.pwr_factor_percent": 0.0,
+      "EQP.eqtank_pH_Mixer.demand_factor_percent": 0.0,
+      "EQP.eqtank_pH_Mixer.total_wgt_kg": 0.0,
+      "EQP.eqtank_pH_Mixer.outputs.query": "agitated_volume_m3",
+      "EQP.eqtank_pH_Mixer.outputs.param": "agitated_volume_m3",
+      "EQP.eqtank_pH_Mixer.outputs.agitated_volume_m3": "500",
+      "EQP.eqtank_pH_Mixer.outputs.power": "5.5",
+      "EQP.eqtank_pH_Mixer.outputs.operating_unit_count": "1",
+      "EQP.Stoplog.name": "유량조정조 비금속 수동 수문",
+      "EQP.Stoplog.code_key": "M_WCG01",
+      "EQP.Stoplog.normal_count": 2.0,
+      "EQP.Stoplog.spare_count": 1.0,
+      "EQP.Stoplog.unit": "",
+      "EQP.Stoplog.structure": "152977871955",
+      "EQP.Stoplog.total_required_capacity": 1.0,
+      "EQP.Stoplog.unit_required_capacity": "",
+      "EQP.Stoplog.applied_capacity": "",
+      "EQP.Stoplog.file_name": "251208_Stoplog_M_WCG01_done_r3.py",
+      "EQP.Stoplog.file_uri": "wai-formula-library/5b48ffe8-9cfd-404a-8909-da1bf47c2f2e/251208_Stoplog_M_WCG01_done_r3.py",
+      "EQP.Stoplog.manufacturer": "경진산업",
+      "EQP.Stoplog.model_name": "데모 시나리오 샘플",
+      "EQP.Stoplog.unit_price": 3741000.0,
+      "EQP.Stoplog.power_kW": 0.0,
+      "EQP.Stoplog.tag_number": 1,
+      "EQP.Stoplog.spec1": "비금속 수동수문",
+      "EQP.Stoplog.spec2": "None",
+      "EQP.Stoplog.qty": 3.0,
+      "EQP.Stoplog.no": null,
+      "EQP.Stoplog.size": 0.0,
+      "EQP.Stoplog.bm": "N/A",
+      "EQP.Stoplog.pipe_length": 0.0,
+      "EQP.Stoplog.tee_joint_count": 0.0,
+      "EQP.Stoplog.elbow_count": 0.0,
+      "EQP.Stoplog.pipe_max_height": 0.0,
+      "EQP.Stoplog.pipe_min_height": 0.0,
+      "EQP.Stoplog.ctrl_method": null,
+      "EQP.Stoplog.rated_volt_V": 0.0,
+      "EQP.Stoplog.efficiency_percent": 0.0,
+      "EQP.Stoplog.pwr_factor_percent": 0.0,
+      "EQP.Stoplog.demand_factor_percent": 0.0,
+      "EQP.Stoplog.total_wgt_kg": 0.0,
+      "EQP.Stoplog.outputs.query": "height_mm, width_mm",
+      "EQP.Stoplog.outputs.param": "height_mm, width_mm",
+      "EQP.Stoplog.outputs.height_mm": "300",
+      "EQP.Stoplog.outputs.width_mm": "300"
+    },
+    {
+      "process_id": "PRO_EQT_F",
+      "process_name": "PRO_2_EQT_Type_D_E_G_F",
+      "process_no": 3,
+      "DCN.influents.q": 1.0,
+      "DCN.influents.bodload": 1.0,
+      "DCN.influents.sbodload": 1.0,
+      "DCN.influents.ibodload": 0.0,
+      "DCN.influents.codload": 1.0,
+      "DCN.influents.tocload": 1.0,
+      "DCN.influents.ssload": 1.0,
+      "DCN.influents.tnload": 1.0,
+      "DCN.influents.tpload": 1.0,
+      "DCN.influents.bod": 1000.0,
+      "DCN.influents.sbod": 1000.0,
+      "DCN.influents.ibod": 0.0,
+      "DCN.influents.cod": 1000.0,
+      "DCN.influents.toc": 1000.0,
+      "DCN.influents.ss": 1000.0,
+      "DCN.influents.tn": 1000.0,
+      "DCN.influents.tp": 1000.0,
+      "DCN.influents.temp": 12.0,
+      "DCN.efficiency.bodload": 0.0,
+      "DCN.efficiency.ibodload": 0.0,
+      "DCN.efficiency.sbodload": 0.0,
+      "DCN.efficiency.codload": 0.0,
+      "DCN.efficiency.tocload": 0.0,
+      "DCN.efficiency.ssload": 0.0,
+      "DCN.efficiency.tnload": 0.0,
+      "DCN.efficiency.tpload": 0.0,
+      "DCN.effluents.water.q": 1.0,
+      "DCN.effluents.water.bodload": 1.0,
+      "DCN.effluents.water.sbodload": 1.0,
+      "DCN.effluents.water.ibodload": 0.0,
+      "DCN.effluents.water.codload": 1.0,
+      "DCN.effluents.water.tocload": 1.0,
+      "DCN.effluents.water.ssload": 1.0,
+      "DCN.effluents.water.tnload": 1.0,
+      "DCN.effluents.water.tpload": 1.0,
+      "DCN.effluents.water.bod": 1000.0,
+      "DCN.effluents.water.sbod": 1000.0,
+      "DCN.effluents.water.ibod": 0.0,
+      "DCN.effluents.water.cod": 1000.0,
+      "DCN.effluents.water.toc": 1000.0,
+      "DCN.effluents.water.ss": 1000.0,
+      "DCN.effluents.water.tn": 1000.0,
+      "DCN.effluents.water.tp": 1000.0,
+      "DCN.info.water.no": "1",
+      "DCN.info.water.comp": "PRO_2_EQT_Type_D_E_G_F_water",
+      "DCN.info.water.size": "100A",
+      "DCN.info.water.bm": "STS304",
+      "DCN.info.water.key": "water",
+      "DCN.info.water.raw": "water",
+      "DCR.Designed_HRT": 20.833333333333332,
+      "DCP.HRT.HRT_Eqtank": 6.0,
+      "DCP.HRT.HRT_pHtank": 0.16666666666666666,
+      "DCP.SBR_reactor.Cycle": 4.0,
+      "DCP.SBR_reactor.Tank_Number": 2.0,
+      "DCP.SBR_reactor.Influent_Time": 1.3,
+      "DSP.eqtank.Flowrate_Eqtank": 1.0,
+      "DSP.eqtank.Flowrate_Eqtank_hr": 0.041666666666666664,
+      "DSP.eqtank.Final_Req_Vol": 0.25,
+      "DSP.eqtank.pH_adjust_reactor_req_Vol": 0.0069444444444444441,
+      "DSP.eqtank.PH_WW1": 3.0,
+      "DSP.eqtank.PH_WL1": 2.0,
+      "DSP.eqtank.PH_WH1": 3.5,
+      "DSP.eqtank.PH_WH2": 2.5,
+      "DSP.eqtank.Actual_HRT": 11.666666666666666,
+      "DSP.eqtank.pump_number": 2.0,
+      "DEP.Sludge_Discharge_Pump.Inflow_Flowrate": 1.0,
+      "DEP.Sludge_Discharge_Pump.Solid_Concenctration": 0.1,
+      "DEP.Sludge_Discharge_Pump.Operation_Time": 10.4,
+      "DEP.Sludge_Discharge_Pump.normal_count": 2.0,
+      "DEP.Sludge_Discharge_Pump.Specific_Gravity_Influent": 1.0,
+      "DEP.Sludge_Discharge_Pump.Safety_Factor": 20.0,
+      "DEP.Sludge_Discharge_Pump.Total_Dynamic_Head": 10.0,
+      "DEP.Sludge_Discharge_Pump.Pipe_length": 50.0,
+      "DEP.Sludge_Discharge_Pump.Pump_Motor_Efficiency": 37.6,
+      "DEP.eqTank_Mixer.normal_count": 2.0,
+      "DEP.eqTank_Mixer.Number_of_Tank": 2.0,
+      "DEP.eqTank_Mixer.Safety_Factor": 10.0,
+      "DEP.eqTank_Mixer.W": 10.0,
+      "DEP.eqTank_Mixer.L": 10.0,
+      "DEP.eqTank_Mixer.He": 5.0,
+      "DEP.eqtank_pH_Mixer.normal_count": 1.0,
+      "DEP.eqtank_pH_Mixer.Number_of_Tank": 2.0,
+      "DEP.eqtank_pH_Mixer.W": 10.0,
+      "DEP.eqtank_pH_Mixer.L": 10.0,
+      "DEP.eqtank_pH_Mixer.He": 5.0,
+      "STC.eqtank.name": "EQT tank with pH adjust reactor",
+      "STC.eqtank.code_key": "S_CONC",
+      "STC.eqtank.tank_number": 2,
+      "STC.eqtank.layout_type": "S_CON02F",
+      "STC.eqtank.layout_type_number": 1,
+      "STC.eqtank.required_capacity": 0.25,
+      "STC.eqtank.applied_capacity": 500.0,
+      "STC.eqtank.W": 10.0,
+      "STC.eqtank.L": 10.0,
+      "STC.eqtank.height": 6.0,
+      "STC.eqtank.water_level": 5.0,
+      "STC.eqtank.diameter": 0.3,
+      "STC.eqtank.file_name": "S_CON02E____251210_Rev00_v15.py",
+      "STC.eqtank.file_uri": "wai-formula-library/1e4df2cd-ba49-4370-be89-5a26e639c9df/S_CON02E____251210_Rev00_v15.py",
+      "STC.eqtank.no": null,
+      "STC.eqtank.size": 0.0,
+      "STC.eqtank.bm": "N/A",
+      "STC.eqtank.pipe_length": 0.0,
+      "STC.eqtank.tee_joint_count": 0.0,
+      "STC.eqtank.elbow_count": 0.0,
+      "STC.eqtank.pipe_max_height": 0.0,
+      "STC.eqtank.pipe_min_height": 0.0,
+      "STC.eqtank.elevation_level": 5.0,
+      "STC.eqtank.forward_result.Floor1": "min: (-300, -300, -300), max: (10300, 10300, 0)",
+      "STC.eqtank.forward_result.Floor2": "min: (-300, -300, 6000), max: (10300, 10300, 6300)",
+      "STC.eqtank.forward_result.Wall1": "min: (-300, -300, 0), max: (10300, 0, 6000)",
+      "STC.eqtank.forward_result.Wall2": "min: (10000, 0, 0), max: (10300, 10000, 6000)",
+      "STC.eqtank.forward_result.Wall3": "min: (-300, 10000, 0), max: (10300, 10300, 6000)",
+      "STC.eqtank.forward_result.Wall4": "min: (-300, 0, 0), max: (0, 10000, 6000)",
+      "STC.eqtank.forward_result.Wall5": "min: (3200, 0, 2200), max: (6800, 2300, 2500)",
+      "STC.eqtank.forward_result.Wall6": "min: (3200, 2000, 2500), max: (6800, 2300, 6000)",
+      "STC.eqtank.forward_result.Wall7": "min: (3200, 0, 2500), max: (3500, 2000, 5000)",
+      "STC.eqtank.forward_result.Wall8": "min: (6500, 0, 2500), max: (6800, 2000, 5000)",
+      "STC.eqtank.reverse_result.용량검증결과": true,
+      "STC.eqtank.level_result": null,
+      "STC.eqtank.level_drawing.Level1": "min: (0, 0), max: (0, 0)",
+      "EQP.Sludge_Discharge_Pump.name": "유량조정조 유출펌프",
+      "EQP.Sludge_Discharge_Pump.code_key": "M_PMP0302",
+      "EQP.Sludge_Discharge_Pump.normal_count": 2.0,
+      "EQP.Sludge_Discharge_Pump.spare_count": 1.0,
+      "EQP.Sludge_Discharge_Pump.unit": "",
+      "EQP.Sludge_Discharge_Pump.structure": "152977867276",
+      "EQP.Sludge_Discharge_Pump.total_required_capacity": 1.0,
+      "EQP.Sludge_Discharge_Pump.unit_required_capacity": "",
+      "EQP.Sludge_Discharge_Pump.applied_capacity": "",
+      "EQP.Sludge_Discharge_Pump.file_name": "251203_Submersible_Pump_M_PMP0302_done.py",
+      "EQP.Sludge_Discharge_Pump.file_uri": "wai-formula-library/c010630e-9722-4d9a-ac40-da1769e8117e/251203_Submersible_Pump_M_PMP0302_done.py",
+      "EQP.Sludge_Discharge_Pump.manufacturer": "동해엔지니어링",
+      "EQP.Sludge_Discharge_Pump.model_name": "50DHS-0.75",
+      "EQP.Sludge_Discharge_Pump.unit_price": 1010000.0,
+      "EQP.Sludge_Discharge_Pump.power_kW": 0.75,
+      "EQP.Sludge_Discharge_Pump.tag_number": 1,
+      "EQP.Sludge_Discharge_Pump.spec1": "수중오수모터펌프(자동탈착식)",
+      "EQP.Sludge_Discharge_Pump.spec2": "None",
+      "EQP.Sludge_Discharge_Pump.qty": 3.0,
+      "EQP.Sludge_Discharge_Pump.no": null,
+      "EQP.Sludge_Discharge_Pump.size": 0.0,
+      "EQP.Sludge_Discharge_Pump.bm": "N/A",
+      "EQP.Sludge_Discharge_Pump.pipe_length": 0.0,
+      "EQP.Sludge_Discharge_Pump.tee_joint_count": 0.0,
+      "EQP.Sludge_Discharge_Pump.elbow_count": 0.0,
+      "EQP.Sludge_Discharge_Pump.pipe_max_height": 0.0,
+      "EQP.Sludge_Discharge_Pump.pipe_min_height": 0.0,
+      "EQP.Sludge_Discharge_Pump.ctrl_method": null,
+      "EQP.Sludge_Discharge_Pump.rated_volt_V": 0.0,
+      "EQP.Sludge_Discharge_Pump.efficiency_percent": 0.0,
+      "EQP.Sludge_Discharge_Pump.pwr_factor_percent": 0.0,
+      "EQP.Sludge_Discharge_Pump.demand_factor_percent": 0.0,
+      "EQP.Sludge_Discharge_Pump.total_wgt_kg": 0.0,
+      "EQP.Sludge_Discharge_Pump.outputs.query": "max_capacity_m3_min, max_power_kW",
+      "EQP.Sludge_Discharge_Pump.outputs.param": "max_capacity_m3_min, total_dynamic_head",
+      "EQP.Sludge_Discharge_Pump.outputs.max_capacity_m3_min": "0",
+      "EQP.Sludge_Discharge_Pump.outputs.total_dynamic_head": "16",
+      "EQP.Sludge_Discharge_Pump.outputs.max_power_kW": "0.4",
+      "EQP.Sludge_Discharge_Pump.outputs.operating_unit_count": "2",
+      "EQP.eqTank_Mixer.name": "유량조정조 교반기",
+      "EQP.eqTank_Mixer.code_key": "M_AGT0602",
+      "EQP.eqTank_Mixer.normal_count": 2.0,
+      "EQP.eqTank_Mixer.spare_count": 0.0,
+      "EQP.eqTank_Mixer.unit": "",
+      "EQP.eqTank_Mixer.structure": "152977867276",
+      "EQP.eqTank_Mixer.total_required_capacity": 1.0,
+      "EQP.eqTank_Mixer.unit_required_capacity": "",
+      "EQP.eqTank_Mixer.applied_capacity": "",
+      "EQP.eqTank_Mixer.file_name": "251208_Horizontal_Mixer_M_AGT0602_done_jyj.py",
+      "EQP.eqTank_Mixer.file_uri": "wai-formula-library/8f9374f1-9ce3-4ea3-9eb3-8a4b66d91f2c/251208_Horizontal_Mixer_M_AGT0602_done_jyj.py",
+      "EQP.eqTank_Mixer.manufacturer": "삼진공업",
+      "EQP.eqTank_Mixer.model_name": "SMS-044-2B",
+      "EQP.eqTank_Mixer.unit_price": 999.0,
+      "EQP.eqTank_Mixer.power_kW": 0.4,
+      "EQP.eqTank_Mixer.tag_number": 1,
+      "EQP.eqTank_Mixer.spec1": "수중횡축 프로펠러형 (인양장치, 모니터링유니트 포함)",
+      "EQP.eqTank_Mixer.spec2": "None",
+      "EQP.eqTank_Mixer.qty": 2.0,
+      "EQP.eqTank_Mixer.no": null,
+      "EQP.eqTank_Mixer.size": 0.0,
+      "EQP.eqTank_Mixer.bm": "N/A",
+      "EQP.eqTank_Mixer.pipe_length": 0.0,
+      "EQP.eqTank_Mixer.tee_joint_count": 0.0,
+      "EQP.eqTank_Mixer.elbow_count": 0.0,
+      "EQP.eqTank_Mixer.pipe_max_height": 0.0,
+      "EQP.eqTank_Mixer.pipe_min_height": 0.0,
+      "EQP.eqTank_Mixer.ctrl_method": null,
+      "EQP.eqTank_Mixer.rated_volt_V": 0.0,
+      "EQP.eqTank_Mixer.efficiency_percent": 0.0,
+      "EQP.eqTank_Mixer.pwr_factor_percent": 0.0,
+      "EQP.eqTank_Mixer.demand_factor_percent": 0.0,
+      "EQP.eqTank_Mixer.total_wgt_kg": 0.0,
+      "EQP.eqTank_Mixer.outputs.query": "agitated_volume_m3",
+      "EQP.eqTank_Mixer.outputs.param": "agitated_volume_m3",
+      "EQP.eqTank_Mixer.outputs.agitated_volume_m3": "550",
+      "EQP.eqTank_Mixer.outputs.power": "5.5",
+      "EQP.eqTank_Mixer.outputs.normal_count": "4",
+      "EQP.eqtank_pH_Mixer.name": "pH조정조 교반기",
+      "EQP.eqtank_pH_Mixer.code_key": "M_AGT0701",
+      "EQP.eqtank_pH_Mixer.normal_count": 1.0,
+      "EQP.eqtank_pH_Mixer.spare_count": 0.0,
+      "EQP.eqtank_pH_Mixer.unit": "",
+      "EQP.eqtank_pH_Mixer.structure": "152977867276",
+      "EQP.eqtank_pH_Mixer.total_required_capacity": 1.0,
+      "EQP.eqtank_pH_Mixer.unit_required_capacity": "",
+      "EQP.eqtank_pH_Mixer.applied_capacity": "",
+      "EQP.eqtank_pH_Mixer.file_name": "251208_Vertical_MixerM_AGT0701_done.py",
+      "EQP.eqtank_pH_Mixer.file_uri": "wai-formula-library/a44296cd-e210-4b52-86b8-6f9b2e21b55a/251208_Vertical_MixerM_AGT0701_done.py",
+      "EQP.eqtank_pH_Mixer.manufacturer": "(주)부강테크/창신",
+      "EQP.eqtank_pH_Mixer.model_name": "데모 시나리오 샘플",
+      "EQP.eqtank_pH_Mixer.unit_price": 0.0,
+      "EQP.eqtank_pH_Mixer.power_kW": 0.75,
+      "EQP.eqtank_pH_Mixer.tag_number": 1,
+      "EQP.eqtank_pH_Mixer.spec1": "수직 입축 하이드로포일형",
+      "EQP.eqtank_pH_Mixer.spec2": "None",
+      "EQP.eqtank_pH_Mixer.qty": 1.0,
+      "EQP.eqtank_pH_Mixer.no": null,
+      "EQP.eqtank_pH_Mixer.size": 0.0,
+      "EQP.eqtank_pH_Mixer.bm": "N/A",
+      "EQP.eqtank_pH_Mixer.pipe_length": 0.0,
+      "EQP.eqtank_pH_Mixer.tee_joint_count": 0.0,
+      "EQP.eqtank_pH_Mixer.elbow_count": 0.0,
+      "EQP.eqtank_pH_Mixer.pipe_max_height": 0.0,
+      "EQP.eqtank_pH_Mixer.pipe_min_height": 0.0,
+      "EQP.eqtank_pH_Mixer.ctrl_method": null,
+      "EQP.eqtank_pH_Mixer.rated_volt_V": 0.0,
+      "EQP.eqtank_pH_Mixer.efficiency_percent": 0.0,
+      "EQP.eqtank_pH_Mixer.pwr_factor_percent": 0.0,
+      "EQP.eqtank_pH_Mixer.demand_factor_percent": 0.0,
+      "EQP.eqtank_pH_Mixer.total_wgt_kg": 0.0,
+      "EQP.eqtank_pH_Mixer.outputs.query": "agitated_volume_m3",
+      "EQP.eqtank_pH_Mixer.outputs.param": "agitated_volume_m3",
+      "EQP.eqtank_pH_Mixer.outputs.agitated_volume_m3": "1000",
+      "EQP.eqtank_pH_Mixer.outputs.power": "11",
+      "EQP.eqtank_pH_Mixer.outputs.operating_unit_count": "2",
+      "EQP.Stoplog.name": "유량조정조 비금속 수동 수문",
+      "EQP.Stoplog.code_key": "M_WCG01",
+      "EQP.Stoplog.normal_count": 2.0,
+      "EQP.Stoplog.spare_count": 1.0,
+      "EQP.Stoplog.unit": "",
+      "EQP.Stoplog.structure": "152977867276",
+      "EQP.Stoplog.total_required_capacity": 1.0,
+      "EQP.Stoplog.unit_required_capacity": "",
+      "EQP.Stoplog.applied_capacity": "",
+      "EQP.Stoplog.file_name": "251208_Stoplog_M_WCG01_done_r3.py",
+      "EQP.Stoplog.file_uri": "wai-formula-library/5b48ffe8-9cfd-404a-8909-da1bf47c2f2e/251208_Stoplog_M_WCG01_done_r3.py",
+      "EQP.Stoplog.manufacturer": "경진산업",
+      "EQP.Stoplog.model_name": "데모 시나리오 샘플",
+      "EQP.Stoplog.unit_price": 3741000.0,
+      "EQP.Stoplog.power_kW": 0.0,
+      "EQP.Stoplog.tag_number": 1,
+      "EQP.Stoplog.spec1": "비금속 수동수문",
+      "EQP.Stoplog.spec2": "None",
+      "EQP.Stoplog.qty": 3.0,
+      "EQP.Stoplog.no": null,
+      "EQP.Stoplog.size": 0.0,
+      "EQP.Stoplog.bm": "N/A",
+      "EQP.Stoplog.pipe_length": 0.0,
+      "EQP.Stoplog.tee_joint_count": 0.0,
+      "EQP.Stoplog.elbow_count": 0.0,
+      "EQP.Stoplog.pipe_max_height": 0.0,
+      "EQP.Stoplog.pipe_min_height": 0.0,
+      "EQP.Stoplog.ctrl_method": null,
+      "EQP.Stoplog.rated_volt_V": 0.0,
+      "EQP.Stoplog.efficiency_percent": 0.0,
+      "EQP.Stoplog.pwr_factor_percent": 0.0,
+      "EQP.Stoplog.demand_factor_percent": 0.0,
+      "EQP.Stoplog.total_wgt_kg": 0.0,
+      "EQP.Stoplog.outputs.query": "height_mm, width_mm",
+      "EQP.Stoplog.outputs.param": "height_mm, width_mm",
+      "EQP.Stoplog.outputs.height_mm": "300",
+      "EQP.Stoplog.outputs.width_mm": "300"
+    }
+  ],
+  "equipments": [
+    {
+      "process_id": "MAP_003_SBR",
+      "process_name": "MAP_03_SBR",
+      "process_no": 1,
+      "EQP.Air_Blower": {
+        "name": "생물반응조 송풍기",
+        "code_key": "M_AEB0101",
+        "normal_count": 2.0,
+        "spare_count": 1.0,
+        "unit": "",
+        "structure": "152977889399",
+        "total_required_capacity": 1.0,
+        "unit_required_capacity": "156.0m3/min 156.0 mmAq",
+        "applied_capacity": "",
+        "file_name": "251203_Turbo_Blower_M_AEB0101.py",
+        "file_uri": "wai-formula-library/2b6d2027-484e-4555-b0dc-bc089c21513a/251203_Turbo_Blower_M_AEB0101.py",
+        "manufacturer": "(주)부강테크/터보맥스",
+        "model_name": "MAX30-C70 (데모)",
+        "unit_price": 62000000.0,
+        "power_kW": 22.0,
+        "tag_number": "M_101",
+        "spec1": "터보 블로워(VVVF)",
+        "spec2": "",
+        "qty": 3.0,
+        "no": null,
+        "size": 100.0,
+        "bm": "N/A",
+        "pipe_length": 0.0,
+        "tee_joint_count": 0.0,
+        "elbow_count": 0.0,
+        "pipe_max_height": 0.0,
+        "pipe_min_height": 0.0,
+        "ctrl_method": null,
+        "rated_volt_V": 0.0,
+        "efficiency_percent": 0.0,
+        "pwr_factor_percent": 0.0,
+        "demand_factor_percent": 0.0,
+        "total_wgt_kg": 0.0,
+        "outputs": {
+          "query": {
+            "name": "query",
+            "value": [
+              "max_capacity_m3_min",
+              "discharge_pressure_mmAq"
+            ]
+          },
+          "param": {
+            "name": "param",
+            "value": [
+              "query",
+              "max_capacity_m3_min",
+              "discharge_pressure_mmAq"
+            ]
+          },
+          "max_capacity_m3_min": {
+            "name": "equipment_capacity",
+            "value": "5.3"
+          },
+          "power": {
+            "name": "power",
+            "value": "7.5"
+          },
+          "discharge_pressure_mmAq": {
+            "name": "total_dynamic_headr",
+            "value": "6900"
+          },
+          "horsepower": {
+            "name": "horsepower",
+            "value": "10"
+          },
+          "operating_unit_count": {
+            "name": "operating_unit_count",
+            "value": "2"
+          }
+        }
+      },
+      "EQP.Aeration_Device": {
+        "name": "생물반응조 수중포기기",
+        "code_key": "M_AQR05",
+        "normal_count": 2.0,
+        "spare_count": 0.0,
+        "unit": "",
+        "structure": "152977889399",
+        "total_required_capacity": 1.0,
+        "unit_required_capacity": "156.0kgO2/hr",
+        "applied_capacity": "",
+        "file_name": "251203_Aeration_Device_M_AQR05.py",
+        "file_uri": "wai-formula-library/01d03f27-adb6-4503-9b13-80ff3d49662b/251203_Aeration_Device_M_AQR05.py",
+        "manufacturer": "(주)부강테크/삼진",
+        "model_name": "AQR-110D (데모)",
+        "unit_price": 93800000.0,
+        "power_kW": 11.0,
+        "tag_number": "M_102",
+        "spec1": "수중포기기(인양장치 제외)",
+        "spec2": "",
+        "qty": 2.0,
+        "no": null,
+        "size": 100.0,
+        "bm": "N/A",
+        "pipe_length": 0.0,
+        "tee_joint_count": 0.0,
+        "elbow_count": 0.0,
+        "pipe_max_height": 0.0,
+        "pipe_min_height": 0.0,
+        "ctrl_method": null,
+        "rated_volt_V": 0.0,
+        "efficiency_percent": 0.0,
+        "pwr_factor_percent": 0.0,
+        "demand_factor_percent": 0.0,
+        "total_wgt_kg": 0.0,
+        "outputs": {
+          "query": {
+            "name": "query",
+            "value": [
+              "o2_transfer_rate_kgO2_h"
+            ]
+          },
+          "param": {
+            "name": "param",
+            "value": [
+              "query",
+              "o2_transfer_rate_kgO2_h"
+            ]
+          },
+          "o2_transfer_rate_kgO2_h": {
+            "name": "equipment_capacity",
+            "value": "33.1"
+          },
+          "operating_unit_count": {
+            "name": "2.0",
+            "value": "0"
+          }
+        }
+      },
+      "EQP.Floating_Decanter": {
+        "name": "상등수 배출장치",
+        "code_key": "M_FDC01",
+        "normal_count": 2.0,
+        "spare_count": 0.0,
+        "unit": "",
+        "structure": "152977889399",
+        "total_required_capacity": 1.0,
+        "unit_required_capacity": "156.0m3/hr",
+        "applied_capacity": "",
+        "file_name": "251203_Floating_Decanter_r3_M_FDC01.py",
+        "file_uri": "wai-formula-library/2248c8a8-c864-4f4c-b824-58e72ad609e8/251203_Floating_Decanter_r3_M_FDC01.py",
+        "manufacturer": "(주)부강테크",
+        "model_name": "BKD-250 (dtdx)",
+        "unit_price": 70200000.0,
+        "power_kW": 0.0,
+        "tag_number": "M_103",
+        "spec1": "무동력 부력식",
+        "spec2": "",
+        "qty": 2.0,
+        "no": null,
+        "size": 250.0,
+        "bm": "N/A",
+        "pipe_length": 0.0,
+        "tee_joint_count": 0.0,
+        "elbow_count": 0.0,
+        "pipe_max_height": 0.0,
+        "pipe_min_height": 0.0,
+        "ctrl_method": null,
+        "rated_volt_V": 0.0,
+        "efficiency_percent": 0.0,
+        "pwr_factor_percent": 0.0,
+        "demand_factor_percent": 0.0,
+        "total_wgt_kg": 0.0,
+        "outputs": {
+          "query": {
+            "name": "query",
+            "value": [
+              "max_capacity_m3_h"
+            ]
+          },
+          "param": {
+            "name": "param",
+            "value": [
+              "query",
+              "max_capacity_m3_h"
+            ]
+          },
+          "max_capacity_m3_h": {
+            "name": "flowrate",
+            "value": "162.62"
+          },
+          "decanter_diameter": {
+            "name": "decanter_diameter",
+            "value": "250"
+          },
+          "diameter": {
+            "name": "diameter",
+            "value": "350"
+          },
+          "operating_unit_count": {
+            "name": "operating_unit_count",
+            "value": "2"
+          }
+        }
+      },
+      "EQP.Valve": {
+        "name": "밸브",
+        "code_key": "M_VAV0201",
+        "normal_count": 2.0,
+        "spare_count": 0.0,
+        "unit": "",
+        "structure": "152977889399",
+        "total_required_capacity": 1.0,
+        "unit_required_capacity": "200.0mm",
+        "applied_capacity": "",
+        "file_name": "251203_Valve_M_VAV0201.py",
+        "file_uri": "wai-formula-library/3cc9fa05-7a15-4338-abb6-25501700ad82/251203_Valve_M_VAV0201.py",
+        "manufacturer": "경진산업",
+        "model_name": "200_10 (dtdx)",
+        "unit_price": 10964400.0,
+        "power_kW": 0.4,
+        "tag_number": "M_104",
+        "spec1": "전동식(1상식) 버터플라이 밸브",
+        "spec2": "",
+        "qty": 2.0,
+        "no": null,
+        "size": 200.0,
+        "bm": "N/A",
+        "pipe_length": 0.0,
+        "tee_joint_count": 0.0,
+        "elbow_count": 0.0,
+        "pipe_max_height": 0.0,
+        "pipe_min_height": 0.0,
+        "ctrl_method": null,
+        "rated_volt_V": 0.0,
+        "efficiency_percent": 0.0,
+        "pwr_factor_percent": 0.0,
+        "demand_factor_percent": 0.0,
+        "total_wgt_kg": 0.0,
+        "outputs": {
+          "query": {
+            "name": "query",
+            "value": [
+              "diameter_mm"
+            ]
+          },
+          "param": {
+            "name": "param",
+            "value": [
+              "query",
+              "diameter_mm"
+            ]
+          },
+          "diameter_mm": {
+            "name": "diameter",
+            "value": "200"
+          },
+          "operating_unit_count": {
+            "name": "operating_unit_count",
+            "value": "2"
+          }
+        }
+      },
+      "EQP.Control_Panel": {
+        "name": "공법제어반",
+        "code_key": "M_CTR0102",
+        "normal_count": 1.0,
+        "spare_count": 0.0,
+        "unit": "",
+        "structure": "152977889399",
+        "total_required_capacity": 1.0,
+        "unit_required_capacity": "자동제어반",
+        "applied_capacity": "",
+        "file_name": "251208_process_control_panel_M_CTR01_done_r2.py",
+        "file_uri": "wai-formula-library/13e8962c-254a-429d-b0fd-7c122927d55e/251208_process_control_panel_M_CTR01_done_r2.py",
+        "manufacturer": "(주)부강테크",
+        "model_name": "BCS하수 (dtdx)",
+        "unit_price": 485000000.0,
+        "power_kW": 0.0,
+        "tag_number": "M_105",
+        "spec1": "BCS 하수 제어반",
+        "spec2": "",
+        "qty": 1.0,
+        "no": null,
+        "size": 0.0,
+        "bm": "N/A",
+        "pipe_length": 0.0,
+        "tee_joint_count": 0.0,
+        "elbow_count": 0.0,
+        "pipe_max_height": 0.0,
+        "pipe_min_height": 0.0,
+        "ctrl_method": null,
+        "rated_volt_V": 0.0,
+        "efficiency_percent": 0.0,
+        "pwr_factor_percent": 0.0,
+        "demand_factor_percent": 0.0,
+        "total_wgt_kg": 0.0,
+        "outputs": {
+          "query": {
+            "name": "query",
+            "value": [
+              "max_capacity_m3_d"
+            ]
+          },
+          "param": {
+            "name": "param",
+            "value": [
+              "query",
+              "max_capacity_m3_d"
+            ]
+          },
+          "max_capacity_m3_d": {
+            "name": "Q",
+            "value": "1317"
+          },
+          "normal_count": {
+            "name": "operating_unit_count",
+            "value": "1"
+          }
+        }
+      },
+      "EQP.Sludge_Discharge_Pump": {
+        "name": "잉여슬러지 배출펌프",
+        "code_key": "M_PMP0601",
+        "normal_count": 2.0,
+        "spare_count": 1.0,
+        "unit": "",
+        "structure": "152977889399",
+        "total_required_capacity": 1.0,
+        "unit_required_capacity": "156.0m3/min 156.0 mH",
+        "applied_capacity": "",
+        "file_name": "251203_Spurt_Pump_M_PMP0601_r2.py",
+        "file_uri": "wai-formula-library/95d3a074-1587-49b3-bd5c-c667ddf6f252/251203_Spurt_Pump_M_PMP0601_r2.py",
+        "manufacturer": "삼흥산업",
+        "model_name": "SH-50A (데모)",
+        "unit_price": 10987000.0,
+        "power_kW": 7.5,
+        "tag_number": "M_106",
+        "spec1": "스프르트펌프",
+        "spec2": "",
+        "qty": 3.0,
+        "no": null,
+        "size": 100.0,
+        "bm": "N/A",
+        "pipe_length": 0.0,
+        "tee_joint_count": 0.0,
+        "elbow_count": 0.0,
+        "pipe_max_height": 0.0,
+        "pipe_min_height": 0.0,
+        "ctrl_method": null,
+        "rated_volt_V": 0.0,
+        "efficiency_percent": 0.0,
+        "pwr_factor_percent": 0.0,
+        "demand_factor_percent": 0.0,
+        "total_wgt_kg": 0.0,
+        "outputs": {
+          "query": {
+            "name": "query",
+            "value": [
+              "max_capacity_m3_min",
+              "max_power_kW"
+            ]
+          },
+          "param": {
+            "name": "param",
+            "value": [
+              "query",
+              "max_capacity_m3_min",
+              "total_dynamic_head"
+            ]
+          },
+          "max_capacity_m3_min": {
+            "name": "flowrate",
+            "value": "0.4"
+          },
+          "total_dynamic_head": {
+            "name": "total_dynamic_head",
+            "value": "7"
+          },
+          "max_power_kW": {
+            "name": "power",
+            "value": "2.2"
+          },
+          "operating_unit_count": {
+            "name": "operating_unit_count",
+            "value": "3"
+          }
+        }
+      }
+    },
+    {
+      "process_id": "PRO_EQT_F",
+      "process_name": "PRO_2_EQT_Type_D_E_G_F",
+      "process_no": 2,
+      "EQP.Sludge_Discharge_Pump": {
+        "name": "유량조정조 유출펌프",
+        "code_key": "M_PMP0302",
+        "normal_count": 2.0,
+        "spare_count": 1.0,
+        "unit": "",
+        "structure": "152977871955",
+        "total_required_capacity": 1.0,
+        "unit_required_capacity": "",
+        "applied_capacity": "",
+        "file_name": "251203_Submersible_Pump_M_PMP0302_done.py",
+        "file_uri": "wai-formula-library/c010630e-9722-4d9a-ac40-da1769e8117e/251203_Submersible_Pump_M_PMP0302_done.py",
+        "manufacturer": "동해엔지니어링",
+        "model_name": "50DHS-0.75",
+        "unit_price": 1010000.0,
+        "power_kW": 0.75,
+        "tag_number": "M_201",
+        "spec1": "수중오수모터펌프(자동탈착식)",
+        "spec2": "",
+        "qty": 3.0,
+        "no": null,
+        "size": 0.0,
+        "bm": "N/A",
+        "pipe_length": 0.0,
+        "tee_joint_count": 0.0,
+        "elbow_count": 0.0,
+        "pipe_max_height": 0.0,
+        "pipe_min_height": 0.0,
+        "ctrl_method": null,
+        "rated_volt_V": 0.0,
+        "efficiency_percent": 0.0,
+        "pwr_factor_percent": 0.0,
+        "demand_factor_percent": 0.0,
+        "total_wgt_kg": 0.0,
+        "outputs": {
+          "query": {
+            "name": "query",
+            "value": [
+              "max_capacity_m3_min",
+              "max_power_kW"
+            ]
+          },
+          "param": {
+            "name": "param",
+            "value": [
+              "query",
+              "max_capacity_m3_min",
+              "total_dynamic_head"
+            ]
+          },
+          "max_capacity_m3_min": {
+            "name": "flowrate",
+            "value": "0"
+          },
+          "total_dynamic_head": {
+            "name": "total_dynamic_head",
+            "value": "16"
+          },
+          "max_power_kW": {
+            "name": "power",
+            "value": "0.4"
+          },
+          "operating_unit_count": {
+            "name": "operating_unit_count",
+            "value": "2"
+          }
+        }
+      },
+      "EQP.eqTank_Mixer": {
+        "name": "유량조정조 교반기",
+        "code_key": "M_AGT0602",
+        "normal_count": 2.0,
+        "spare_count": 0.0,
+        "unit": "",
+        "structure": "152977871955",
+        "total_required_capacity": 1.0,
+        "unit_required_capacity": "",
+        "applied_capacity": "",
+        "file_name": "251208_Horizontal_Mixer_M_AGT0602_done_jyj.py",
+        "file_uri": "wai-formula-library/8f9374f1-9ce3-4ea3-9eb3-8a4b66d91f2c/251208_Horizontal_Mixer_M_AGT0602_done_jyj.py",
+        "manufacturer": "삼진공업",
+        "model_name": "SMS-044-2B",
+        "unit_price": 999.0,
+        "power_kW": 0.4,
+        "tag_number": "M_202",
+        "spec1": "수중횡축 프로펠러형 (인양장치, 모니터링유니트 포함)",
+        "spec2": "",
+        "qty": 2.0,
+        "no": null,
+        "size": 0.0,
+        "bm": "N/A",
+        "pipe_length": 0.0,
+        "tee_joint_count": 0.0,
+        "elbow_count": 0.0,
+        "pipe_max_height": 0.0,
+        "pipe_min_height": 0.0,
+        "ctrl_method": null,
+        "rated_volt_V": 0.0,
+        "efficiency_percent": 0.0,
+        "pwr_factor_percent": 0.0,
+        "demand_factor_percent": 0.0,
+        "total_wgt_kg": 0.0,
+        "outputs": {
+          "query": {
+            "name": "query",
+            "value": [
+              "agitated_volume_m3"
+            ]
+          },
+          "param": {
+            "name": "param",
+            "value": [
+              "query",
+              "agitated_volume_m3"
+            ]
+          },
+          "agitated_volume_m3": {
+            "name": "Mixing Volume",
+            "value": "275"
+          },
+          "power": {
+            "name": "power",
+            "value": "5.5"
+          },
+          "normal_count": {
+            "name": "operating_unit_count",
+            "value": "2"
+          }
+        }
+      },
+      "EQP.eqtank_pH_Mixer": {
+        "name": "pH조정조 교반기",
+        "code_key": "M_AGT0701",
+        "normal_count": 1.0,
+        "spare_count": 0.0,
+        "unit": "",
+        "structure": "152977871955",
+        "total_required_capacity": 1.0,
+        "unit_required_capacity": "",
+        "applied_capacity": "",
+        "file_name": "251208_Vertical_MixerM_AGT0701_done.py",
+        "file_uri": "wai-formula-library/a44296cd-e210-4b52-86b8-6f9b2e21b55a/251208_Vertical_MixerM_AGT0701_done.py",
+        "manufacturer": "(주)부강테크/창신",
+        "model_name": "데모 시나리오 샘플",
+        "unit_price": 0.0,
+        "power_kW": 0.75,
+        "tag_number": "M_203",
+        "spec1": "수직 입축 하이드로포일형",
+        "spec2": "",
+        "qty": 1.0,
+        "no": null,
+        "size": 0.0,
+        "bm": "N/A",
+        "pipe_length": 0.0,
+        "tee_joint_count": 0.0,
+        "elbow_count": 0.0,
+        "pipe_max_height": 0.0,
+        "pipe_min_height": 0.0,
+        "ctrl_method": null,
+        "rated_volt_V": 0.0,
+        "efficiency_percent": 0.0,
+        "pwr_factor_percent": 0.0,
+        "demand_factor_percent": 0.0,
+        "total_wgt_kg": 0.0,
+        "outputs": {
+          "query": {
+            "name": "query",
+            "value": [
+              "agitated_volume_m3"
+            ]
+          },
+          "param": {
+            "name": "param",
+            "value": [
+              "query",
+              "agitated_volume_m3"
+            ]
+          },
+          "agitated_volume_m3": {
+            "name": "equipment_capacity",
+            "value": "500"
+          },
+          "power": {
+            "name": "power",
+            "value": "5.5"
+          },
+          "operating_unit_count": {
+            "name": "operating_unit_count",
+            "value": "1"
+          }
+        }
+      },
+      "EQP.Stoplog": {
+        "name": "유량조정조 비금속 수동 수문",
+        "code_key": "M_WCG01",
+        "normal_count": 2.0,
+        "spare_count": 1.0,
+        "unit": "",
+        "structure": "152977871955",
+        "total_required_capacity": 1.0,
+        "unit_required_capacity": "",
+        "applied_capacity": "",
+        "file_name": "251208_Stoplog_M_WCG01_done_r3.py",
+        "file_uri": "wai-formula-library/5b48ffe8-9cfd-404a-8909-da1bf47c2f2e/251208_Stoplog_M_WCG01_done_r3.py",
+        "manufacturer": "경진산업",
+        "model_name": "데모 시나리오 샘플",
+        "unit_price": 3741000.0,
+        "power_kW": 0.0,
+        "tag_number": "M_204",
+        "spec1": "비금속 수동수문",
+        "spec2": "",
+        "qty": 3.0,
+        "no": null,
+        "size": 0.0,
+        "bm": "N/A",
+        "pipe_length": 0.0,
+        "tee_joint_count": 0.0,
+        "elbow_count": 0.0,
+        "pipe_max_height": 0.0,
+        "pipe_min_height": 0.0,
+        "ctrl_method": null,
+        "rated_volt_V": 0.0,
+        "efficiency_percent": 0.0,
+        "pwr_factor_percent": 0.0,
+        "demand_factor_percent": 0.0,
+        "total_wgt_kg": 0.0,
+        "outputs": {
+          "query": {
+            "name": "query",
+            "value": [
+              "height_mm",
+              "width_mm"
+            ]
+          },
+          "param": {
+            "name": "param",
+            "value": [
+              "query",
+              "height_mm",
+              "width_mm"
+            ]
+          },
+          "height_mm": {
+            "name": "height",
+            "value": "300"
+          },
+          "width_mm": {
+            "name": "length",
+            "value": "300"
+          }
+        }
+      }
+    },
+    {
+      "process_id": "PRO_EQT_F",
+      "process_name": "PRO_2_EQT_Type_D_E_G_F",
+      "process_no": 3,
+      "EQP.Sludge_Discharge_Pump": {
+        "name": "유량조정조 유출펌프",
+        "code_key": "M_PMP0302",
+        "normal_count": 2.0,
+        "spare_count": 1.0,
+        "unit": "",
+        "structure": "152977867276",
+        "total_required_capacity": 1.0,
+        "unit_required_capacity": "",
+        "applied_capacity": "",
+        "file_name": "251203_Submersible_Pump_M_PMP0302_done.py",
+        "file_uri": "wai-formula-library/c010630e-9722-4d9a-ac40-da1769e8117e/251203_Submersible_Pump_M_PMP0302_done.py",
+        "manufacturer": "동해엔지니어링",
+        "model_name": "50DHS-0.75",
+        "unit_price": 1010000.0,
+        "power_kW": 0.75,
+        "tag_number": "M_301",
+        "spec1": "수중오수모터펌프(자동탈착식)",
+        "spec2": "",
+        "qty": 3.0,
+        "no": null,
+        "size": 0.0,
+        "bm": "N/A",
+        "pipe_length": 0.0,
+        "tee_joint_count": 0.0,
+        "elbow_count": 0.0,
+        "pipe_max_height": 0.0,
+        "pipe_min_height": 0.0,
+        "ctrl_method": null,
+        "rated_volt_V": 0.0,
+        "efficiency_percent": 0.0,
+        "pwr_factor_percent": 0.0,
+        "demand_factor_percent": 0.0,
+        "total_wgt_kg": 0.0,
+        "outputs": {
+          "query": {
+            "name": "query",
+            "value": [
+              "max_capacity_m3_min",
+              "max_power_kW"
+            ]
+          },
+          "param": {
+            "name": "param",
+            "value": [
+              "query",
+              "max_capacity_m3_min",
+              "total_dynamic_head"
+            ]
+          },
+          "max_capacity_m3_min": {
+            "name": "flowrate",
+            "value": "0"
+          },
+          "total_dynamic_head": {
+            "name": "total_dynamic_head",
+            "value": "16"
+          },
+          "max_power_kW": {
+            "name": "power",
+            "value": "0.4"
+          },
+          "operating_unit_count": {
+            "name": "operating_unit_count",
+            "value": "2"
+          }
+        }
+      },
+      "EQP.eqTank_Mixer": {
+        "name": "유량조정조 교반기",
+        "code_key": "M_AGT0602",
+        "normal_count": 2.0,
+        "spare_count": 0.0,
+        "unit": "",
+        "structure": "152977867276",
+        "total_required_capacity": 1.0,
+        "unit_required_capacity": "",
+        "applied_capacity": "",
+        "file_name": "251208_Horizontal_Mixer_M_AGT0602_done_jyj.py",
+        "file_uri": "wai-formula-library/8f9374f1-9ce3-4ea3-9eb3-8a4b66d91f2c/251208_Horizontal_Mixer_M_AGT0602_done_jyj.py",
+        "manufacturer": "삼진공업",
+        "model_name": "SMS-044-2B",
+        "unit_price": 999.0,
+        "power_kW": 0.4,
+        "tag_number": "M_302",
+        "spec1": "수중횡축 프로펠러형 (인양장치, 모니터링유니트 포함)",
+        "spec2": "",
+        "qty": 2.0,
+        "no": null,
+        "size": 0.0,
+        "bm": "N/A",
+        "pipe_length": 0.0,
+        "tee_joint_count": 0.0,
+        "elbow_count": 0.0,
+        "pipe_max_height": 0.0,
+        "pipe_min_height": 0.0,
+        "ctrl_method": null,
+        "rated_volt_V": 0.0,
+        "efficiency_percent": 0.0,
+        "pwr_factor_percent": 0.0,
+        "demand_factor_percent": 0.0,
+        "total_wgt_kg": 0.0,
+        "outputs": {
+          "query": {
+            "name": "query",
+            "value": [
+              "agitated_volume_m3"
+            ]
+          },
+          "param": {
+            "name": "param",
+            "value": [
+              "query",
+              "agitated_volume_m3"
+            ]
+          },
+          "agitated_volume_m3": {
+            "name": "Mixing Volume",
+            "value": "550"
+          },
+          "power": {
+            "name": "power",
+            "value": "5.5"
+          },
+          "normal_count": {
+            "name": "operating_unit_count",
+            "value": "4"
+          }
+        }
+      },
+      "EQP.eqtank_pH_Mixer": {
+        "name": "pH조정조 교반기",
+        "code_key": "M_AGT0701",
+        "normal_count": 1.0,
+        "spare_count": 0.0,
+        "unit": "",
+        "structure": "152977867276",
+        "total_required_capacity": 1.0,
+        "unit_required_capacity": "",
+        "applied_capacity": "",
+        "file_name": "251208_Vertical_MixerM_AGT0701_done.py",
+        "file_uri": "wai-formula-library/a44296cd-e210-4b52-86b8-6f9b2e21b55a/251208_Vertical_MixerM_AGT0701_done.py",
+        "manufacturer": "(주)부강테크/창신",
+        "model_name": "데모 시나리오 샘플",
+        "unit_price": 0.0,
+        "power_kW": 0.75,
+        "tag_number": "M_303",
+        "spec1": "수직 입축 하이드로포일형",
+        "spec2": "",
+        "qty": 1.0,
+        "no": null,
+        "size": 0.0,
+        "bm": "N/A",
+        "pipe_length": 0.0,
+        "tee_joint_count": 0.0,
+        "elbow_count": 0.0,
+        "pipe_max_height": 0.0,
+        "pipe_min_height": 0.0,
+        "ctrl_method": null,
+        "rated_volt_V": 0.0,
+        "efficiency_percent": 0.0,
+        "pwr_factor_percent": 0.0,
+        "demand_factor_percent": 0.0,
+        "total_wgt_kg": 0.0,
+        "outputs": {
+          "query": {
+            "name": "query",
+            "value": [
+              "agitated_volume_m3"
+            ]
+          },
+          "param": {
+            "name": "param",
+            "value": [
+              "query",
+              "agitated_volume_m3"
+            ]
+          },
+          "agitated_volume_m3": {
+            "name": "equipment_capacity",
+            "value": "1000"
+          },
+          "power": {
+            "name": "power",
+            "value": "11"
+          },
+          "operating_unit_count": {
+            "name": "operating_unit_count",
+            "value": "2"
+          }
+        }
+      },
+      "EQP.Stoplog": {
+        "name": "유량조정조 비금속 수동 수문",
+        "code_key": "M_WCG01",
+        "normal_count": 2.0,
+        "spare_count": 1.0,
+        "unit": "",
+        "structure": "152977867276",
+        "total_required_capacity": 1.0,
+        "unit_required_capacity": "",
+        "applied_capacity": "",
+        "file_name": "251208_Stoplog_M_WCG01_done_r3.py",
+        "file_uri": "wai-formula-library/5b48ffe8-9cfd-404a-8909-da1bf47c2f2e/251208_Stoplog_M_WCG01_done_r3.py",
+        "manufacturer": "경진산업",
+        "model_name": "데모 시나리오 샘플",
+        "unit_price": 3741000.0,
+        "power_kW": 0.0,
+        "tag_number": "M_304",
+        "spec1": "비금속 수동수문",
+        "spec2": "",
+        "qty": 3.0,
+        "no": null,
+        "size": 0.0,
+        "bm": "N/A",
+        "pipe_length": 0.0,
+        "tee_joint_count": 0.0,
+        "elbow_count": 0.0,
+        "pipe_max_height": 0.0,
+        "pipe_min_height": 0.0,
+        "ctrl_method": null,
+        "rated_volt_V": 0.0,
+        "efficiency_percent": 0.0,
+        "pwr_factor_percent": 0.0,
+        "demand_factor_percent": 0.0,
+        "total_wgt_kg": 0.0,
+        "outputs": {
+          "query": {
+            "name": "query",
+            "value": [
+              "height_mm",
+              "width_mm"
+            ]
+          },
+          "param": {
+            "name": "param",
+            "value": [
+              "query",
+              "height_mm",
+              "width_mm"
+            ]
+          },
+          "height_mm": {
+            "name": "height",
+            "value": "300"
+          },
+          "width_mm": {
+            "name": "length",
+            "value": "300"
+          }
+        }
+      }
+    }
+  ],
+  "structures": [
+    {
+      "process_id": "MAP_003_SBR",
+      "process_name": "MAP_03_SBR",
+      "process_no": 1,
+      "STC.flowtank": {
+        "name": "SBR tank",
+        "code_key": "S_CONC",
+        "tank_number": 2,
+        "layout_type": "S_CON01D",
+        "layout_type_number": 2,
+        "required_capacity": 959.80109089285588,
+        "applied_capacity": 1060.9,
+        "W": 10.3,
+        "L": 10.3,
+        "height": 6.0,
+        "water_level": 5.0,
+        "diameter": 11.6,
+        "file_name": "251217_D-Type_jhs.py",
+        "file_uri": "wai-formula-library/38ec23f6-d5db-4441-8ca1-a1c5bd874962/251217_D-Type_jhs.py",
+        "no": null,
+        "size": 0.0,
+        "bm": "N/A",
+        "pipe_length": 0.0,
+        "tee_joint_count": 0.0,
+        "elbow_count": 0.0,
+        "pipe_max_height": 0.0,
+        "pipe_min_height": 0.0,
+        "elevation_level": 5.0,
+        "forward_result": {
+          "Floor1": {
+            "name": "Floor1",
+            "min": [
+              -300.0,
+              -300.0,
+              -300.0
+            ],
+            "max": [
+              10600.0,
+              10600.0,
+              0.0
+            ]
+          },
+          "Floor2": {
+            "name": "Floor2",
+            "min": [
+              -300.0,
+              -300.0,
+              6000.0
+            ],
+            "max": [
+              10600.0,
+              10600.0,
+              6300.0
+            ]
+          },
+          "Wall1": {
+            "name": "Wall1",
+            "min": [
+              -300.0,
+              -300.0,
+              0.0
+            ],
+            "max": [
+              10600.0,
+              0.0,
+              6000.0
+            ]
+          },
+          "Wall2": {
+            "name": "Wall2",
+            "min": [
+              10300.0,
+              0.0,
+              0.0
+            ],
+            "max": [
+              10600.0,
+              10300.0,
+              6000.0
+            ]
+          },
+          "Wall3": {
+            "name": "Wall3",
+            "min": [
+              -300.0,
+              10300.0,
+              0.0
+            ],
+            "max": [
+              10600.0,
+              10600.0,
+              6000.0
+            ]
+          },
+          "Wall4": {
+            "name": "Wall4",
+            "min": [
+              -300.0,
+              -300.0,
+              0.0
+            ],
+            "max": [
+              0.0,
+              10300.0,
+              6000.0
+            ]
+          }
+        },
+        "reverse_result": {
+          "name": "용량검증결과",
+          "value": true
+        },
+        "level_result": {
+          "elevation": {
+            "name": "elevation",
+            "value": 5.0
+          },
+          "head_loss": {
+            "name": "head_loss",
+            "value": 0.065
+          }
+        },
+        "level_drawing": {
+          "Level1": {
+            "name": "Level1",
+            "min": [
+              0.0,
+              4.7
+            ],
+            "max": [
+              5.6,
+              11.3
+            ]
+          },
+          "Level2": {
+            "name": "Level2",
+            "min": [
+              0.3,
+              5.0
+            ],
+            "max": [
+              5.0,
+              11.0
+            ]
+          },
+          "Level3": {
+            "name": "Level3",
+            "min": [
+              0.3,
+              5.0
+            ],
+            "max": [
+              5.0,
+              8.0
+            ],
+            "elevation_level": 8.065
+          },
+          "Level4": {
+            "name": "Level4",
+            "min": [
+              0.3,
+              5.0
+            ],
+            "max": [
+              5.0,
+              10.0
+            ],
+            "elevation_level": 10.065
+          }
+        }
+      }
+    },
+    {
+      "process_id": "PRO_EQT_F",
+      "process_name": "PRO_2_EQT_Type_D_E_G_F",
+      "process_no": 2,
+      "STC.eqtank": {
+        "name": "EQT tank with pH adjust reactor",
+        "code_key": "S_CONC",
+        "tank_number": 1,
+        "layout_type": "S_CON02E",
+        "layout_type_number": 1,
+        "required_capacity": 0.25,
+        "applied_capacity": 500.0,
+        "W": 10.0,
+        "L": 10.0,
+        "height": 6.0,
+        "water_level": 5.0,
+        "diameter": 0.3,
+        "file_name": "S_CON02E____251210_Rev00_v15.py",
+        "file_uri": "wai-formula-library/1e4df2cd-ba49-4370-be89-5a26e639c9df/S_CON02E____251210_Rev00_v15.py",
+        "no": null,
+        "size": 0.0,
+        "bm": "N/A",
+        "pipe_length": 0.0,
+        "tee_joint_count": 0.0,
+        "elbow_count": 0.0,
+        "pipe_max_height": 0.0,
+        "pipe_min_height": 0.0,
+        "elevation_level": 5.0,
+        "forward_result": {
+          "Floor1": {
+            "name": "Floor1",
+            "min": [
+              -300.0,
+              -300.0,
+              -300.0
+            ],
+            "max": [
+              10300.0,
+              10300.0,
+              0.0
+            ]
+          },
+          "Floor2": {
+            "name": "Floor2",
+            "min": [
+              -300.0,
+              -300.0,
+              6000.0
+            ],
+            "max": [
+              10300.0,
+              10300.0,
+              6300.0
+            ]
+          },
+          "Wall1": {
+            "name": "Wall1",
+            "min": [
+              -300.0,
+              -300.0,
+              0.0
+            ],
+            "max": [
+              10300.0,
+              0.0,
+              6000.0
+            ]
+          },
+          "Wall2": {
+            "name": "Wall2",
+            "min": [
+              10000.0,
+              0.0,
+              0.0
+            ],
+            "max": [
+              10300.0,
+              10000.0,
+              6000.0
+            ]
+          },
+          "Wall3": {
+            "name": "Wall3",
+            "min": [
+              -300.0,
+              10000.0,
+              0.0
+            ],
+            "max": [
+              10300.0,
+              10300.0,
+              6000.0
+            ]
+          },
+          "Wall4": {
+            "name": "Wall4",
+            "min": [
+              -300.0,
+              0.0,
+              0.0
+            ],
+            "max": [
+              0.0,
+              10000.0,
+              6000.0
+            ]
+          },
+          "Wall5": {
+            "name": "Wall5",
+            "min": [
+              3200.0,
+              0.0,
+              2200.0
+            ],
+            "max": [
+              6800.0,
+              2300.0,
+              2500.0
+            ]
+          },
+          "Wall6": {
+            "name": "Wall6",
+            "min": [
+              3200.0,
+              2000.0,
+              2500.0
+            ],
+            "max": [
+              6800.0,
+              2300.0,
+              6000.0
+            ]
+          },
+          "Wall7": {
+            "name": "Wall7",
+            "min": [
+              3200.0,
+              0.0,
+              2500.0
+            ],
+            "max": [
+              3500.0,
+              2000.0,
+              5000.0
+            ]
+          },
+          "Wall8": {
+            "name": "Wall8",
+            "min": [
+              6500.0,
+              0.0,
+              2500.0
+            ],
+            "max": [
+              6800.0,
+              2000.0,
+              5000.0
+            ]
+          }
+        },
+        "reverse_result": {
+          "name": "용량검증결과",
+          "value": true
+        },
+        "level_result": {},
+        "level_drawing": {
+          "Level1": {
+            "name": "Level1",
+            "min": [
+              0.0,
+              0.0
+            ],
+            "max": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      }
+    },
+    {
+      "process_id": "PRO_EQT_F",
+      "process_name": "PRO_2_EQT_Type_D_E_G_F",
+      "process_no": 3,
+      "STC.eqtank": {
+        "name": "EQT tank with pH adjust reactor",
+        "code_key": "S_CONC",
+        "tank_number": 2,
+        "layout_type": "S_CON02F",
+        "layout_type_number": 1,
+        "required_capacity": 0.25,
+        "applied_capacity": 500.0,
+        "W": 10.0,
+        "L": 10.0,
+        "height": 6.0,
+        "water_level": 5.0,
+        "diameter": 0.3,
+        "file_name": "S_CON02E____251210_Rev00_v15.py",
+        "file_uri": "wai-formula-library/1e4df2cd-ba49-4370-be89-5a26e639c9df/S_CON02E____251210_Rev00_v15.py",
+        "no": null,
+        "size": 0.0,
+        "bm": "N/A",
+        "pipe_length": 0.0,
+        "tee_joint_count": 0.0,
+        "elbow_count": 0.0,
+        "pipe_max_height": 0.0,
+        "pipe_min_height": 0.0,
+        "elevation_level": 5.0,
+        "forward_result": {
+          "Floor1": {
+            "name": "Floor1",
+            "min": [
+              -300.0,
+              -300.0,
+              -300.0
+            ],
+            "max": [
+              10300.0,
+              10300.0,
+              0.0
+            ]
+          },
+          "Floor2": {
+            "name": "Floor2",
+            "min": [
+              -300.0,
+              -300.0,
+              6000.0
+            ],
+            "max": [
+              10300.0,
+              10300.0,
+              6300.0
+            ]
+          },
+          "Wall1": {
+            "name": "Wall1",
+            "min": [
+              -300.0,
+              -300.0,
+              0.0
+            ],
+            "max": [
+              10300.0,
+              0.0,
+              6000.0
+            ]
+          },
+          "Wall2": {
+            "name": "Wall2",
+            "min": [
+              10000.0,
+              0.0,
+              0.0
+            ],
+            "max": [
+              10300.0,
+              10000.0,
+              6000.0
+            ]
+          },
+          "Wall3": {
+            "name": "Wall3",
+            "min": [
+              -300.0,
+              10000.0,
+              0.0
+            ],
+            "max": [
+              10300.0,
+              10300.0,
+              6000.0
+            ]
+          },
+          "Wall4": {
+            "name": "Wall4",
+            "min": [
+              -300.0,
+              0.0,
+              0.0
+            ],
+            "max": [
+              0.0,
+              10000.0,
+              6000.0
+            ]
+          },
+          "Wall5": {
+            "name": "Wall5",
+            "min": [
+              3200.0,
+              0.0,
+              2200.0
+            ],
+            "max": [
+              6800.0,
+              2300.0,
+              2500.0
+            ]
+          },
+          "Wall6": {
+            "name": "Wall6",
+            "min": [
+              3200.0,
+              2000.0,
+              2500.0
+            ],
+            "max": [
+              6800.0,
+              2300.0,
+              6000.0
+            ]
+          },
+          "Wall7": {
+            "name": "Wall7",
+            "min": [
+              3200.0,
+              0.0,
+              2500.0
+            ],
+            "max": [
+              3500.0,
+              2000.0,
+              5000.0
+            ]
+          },
+          "Wall8": {
+            "name": "Wall8",
+            "min": [
+              6500.0,
+              0.0,
+              2500.0
+            ],
+            "max": [
+              6800.0,
+              2000.0,
+              5000.0
+            ]
+          }
+        },
+        "reverse_result": {
+          "name": "용량검증결과",
+          "value": true
+        },
+        "level_result": {},
+        "level_drawing": {
+          "Level1": {
+            "name": "Level1",
+            "min": [
+              0.0,
+              0.0
+            ],
+            "max": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "mass_balance": [
+    {
+      "process_id": "MAP_003_SBR",
+      "process_name": "MAP_03_SBR",
+      "process_no": 1,
+      "influents": {
+        "q": {
+          "name": "Q",
+          "value": 1317.0,
+          "unit": "㎥/d"
+        },
+        "bodload": {
+          "name": "BOD",
+          "value": 272.619,
+          "unit": "kg/d"
+        },
+        "ibodload": {
+          "name": "IBOD",
+          "value": 172.619,
+          "unit": "kg/d"
+        },
+        "sbodload": {
+          "name": "SBOD",
+          "value": 100.0,
+          "unit": "kg/d"
+        },
+        "codload": {
+          "name": "COD",
+          "value": 272.619,
+          "unit": "kg/d"
+        },
+        "tocload": {
+          "name": "TOC",
+          "value": 175.161,
+          "unit": "kg/d"
+        },
+        "ssload": {
+          "name": "SS",
+          "value": 233.109,
+          "unit": "kg/d"
+        },
+        "tnload": {
+          "name": "TN",
+          "value": 57.6846,
+          "unit": "kg/d"
+        },
+        "tpload": {
+          "name": "TP",
+          "value": 10.2726,
+          "unit": "kg/d"
+        },
+        "bod": {
+          "name": "BOD",
+          "value": 207.00000000000003,
+          "unit": "mg/L"
+        },
+        "ibod": {
+          "name": "IBOD",
+          "value": 131.0698557327259,
+          "unit": "mg/L"
+        },
+        "sbod": {
+          "name": "SBOD",
+          "value": 75.930144267274116,
+          "unit": "mg/L"
+        },
+        "cod": {
+          "name": "COD",
+          "value": 207.00000000000003,
+          "unit": "mg/L"
+        },
+        "toc": {
+          "name": "TOC",
+          "value": 133.0,
+          "unit": "mg/L"
+        },
+        "ss": {
+          "name": "SS",
+          "value": 177.00000000000003,
+          "unit": "mg/L"
+        },
+        "tn": {
+          "name": "TN",
+          "value": 43.800000000000004,
+          "unit": "mg/L"
+        },
+        "tp": {
+          "name": "TP",
+          "value": 7.8000000000000007,
+          "unit": "mg/L"
+        },
+        "temp": {
+          "name": "Temperature",
+          "value": 12.0,
+          "unit": "℃"
+        }
+      },
+      "efficiency": {
+        "bod": {
+          "name": "BOD",
+          "value": 98.0,
+          "unit": "%"
+        },
+        "ibod": {
+          "name": "IBOD",
+          "value": 98.0,
+          "unit": "%"
+        },
+        "sbod": {
+          "name": "SBOD",
+          "value": 98.0,
+          "unit": "%"
+        },
+        "cod": {
+          "name": "COD",
+          "value": 98.0,
+          "unit": "%"
+        },
+        "toc": {
+          "name": "TOC",
+          "value": 88.0,
+          "unit": "%"
+        },
+        "ss": {
+          "name": "SS",
+          "value": 92.0,
+          "unit": "%"
+        },
+        "tn": {
+          "name": "TN",
+          "value": 80.0,
+          "unit": "%"
+        },
+        "tp": {
+          "name": "TP",
+          "value": 79.0,
+          "unit": "%"
+        }
+      }
+    },
+    {
+      "process_id": "PRO_EQT_F",
+      "process_name": "PRO_2_EQT_Type_D_E_G_F",
+      "process_no": 2,
+      "influents": {
+        "q": {
+          "name": "Q",
+          "value": 1.0,
+          "unit": "㎥/day"
+        },
+        "bodload": {
+          "name": "BOD",
+          "value": 1.0,
+          "unit": "kg/d"
+        },
+        "sbodload": {
+          "name": "sBOD",
+          "value": 1.0,
+          "unit": "kg/d"
+        },
+        "ibodload": {
+          "name": "iBOD",
+          "value": 0.0,
+          "unit": "kg/d"
+        },
+        "codload": {
+          "name": "COD",
+          "value": 1.0,
+          "unit": "kg/d"
+        },
+        "tocload": {
+          "name": "TOC",
+          "value": 1.0,
+          "unit": "kg/d"
+        },
+        "ssload": {
+          "name": "SS",
+          "value": 1.0,
+          "unit": "kg/d"
+        },
+        "tnload": {
+          "name": "TN",
+          "value": 1.0,
+          "unit": "kg/d"
+        },
+        "tpload": {
+          "name": "TP",
+          "value": 1.0,
+          "unit": "kg/d"
+        },
+        "bod": {
+          "name": "BOD",
+          "value": 1000.0,
+          "unit": "mg/L"
+        },
+        "sbod": {
+          "name": "sBOD",
+          "value": 1000.0,
+          "unit": "mg/L"
+        },
+        "ibod": {
+          "name": "iBOD",
+          "value": 0.0,
+          "unit": "mg/L"
+        },
+        "cod": {
+          "name": "COD",
+          "value": 1000.0,
+          "unit": "mg/L"
+        },
+        "toc": {
+          "name": "TOC",
+          "value": 1000.0,
+          "unit": "mg/L"
+        },
+        "ss": {
+          "name": "SS",
+          "value": 1000.0,
+          "unit": "mg/L"
+        },
+        "tn": {
+          "name": "T-N",
+          "value": 1000.0,
+          "unit": "mg/L"
+        },
+        "tp": {
+          "name": "T-P",
+          "value": 1000.0,
+          "unit": "mg/L"
+        },
+        "temp": {
+          "name": "Temperature",
+          "value": 12.0,
+          "unit": "℃"
+        }
+      }
+    },
+    {
+      "process_id": "PRO_EQT_F",
+      "process_name": "PRO_2_EQT_Type_D_E_G_F",
+      "process_no": 3,
+      "influents": {
+        "q": {
+          "name": "Q",
+          "value": 1.0,
+          "unit": "㎥/day"
+        },
+        "bodload": {
+          "name": "BOD",
+          "value": 1.0,
+          "unit": "kg/d"
+        },
+        "sbodload": {
+          "name": "sBOD",
+          "value": 1.0,
+          "unit": "kg/d"
+        },
+        "ibodload": {
+          "name": "iBOD",
+          "value": 0.0,
+          "unit": "kg/d"
+        },
+        "codload": {
+          "name": "COD",
+          "value": 1.0,
+          "unit": "kg/d"
+        },
+        "tocload": {
+          "name": "TOC",
+          "value": 1.0,
+          "unit": "kg/d"
+        },
+        "ssload": {
+          "name": "SS",
+          "value": 1.0,
+          "unit": "kg/d"
+        },
+        "tnload": {
+          "name": "TN",
+          "value": 1.0,
+          "unit": "kg/d"
+        },
+        "tpload": {
+          "name": "TP",
+          "value": 1.0,
+          "unit": "kg/d"
+        },
+        "bod": {
+          "name": "BOD",
+          "value": 1000.0,
+          "unit": "mg/L"
+        },
+        "sbod": {
+          "name": "sBOD",
+          "value": 1000.0,
+          "unit": "mg/L"
+        },
+        "ibod": {
+          "name": "iBOD",
+          "value": 0.0,
+          "unit": "mg/L"
+        },
+        "cod": {
+          "name": "COD",
+          "value": 1000.0,
+          "unit": "mg/L"
+        },
+        "toc": {
+          "name": "TOC",
+          "value": 1000.0,
+          "unit": "mg/L"
+        },
+        "ss": {
+          "name": "SS",
+          "value": 1000.0,
+          "unit": "mg/L"
+        },
+        "tn": {
+          "name": "T-N",
+          "value": 1000.0,
+          "unit": "mg/L"
+        },
+        "tp": {
+          "name": "T-P",
+          "value": 1000.0,
+          "unit": "mg/L"
+        },
+        "temp": {
+          "name": "Temperature",
+          "value": 12.0,
+          "unit": "℃"
+        }
+      }
+    }
+  ],
+  "mass_balance_image_url": "http://192.168.233.128:9000/wai-project-tmp/019b20e5-3245-7970-afca-70e81c36f10f/24c7f118d98429b7adb30999070ce32a_massbalance.png"
+}

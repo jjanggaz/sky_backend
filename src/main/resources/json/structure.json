@@ -1,0 +1,141 @@
+{
+  "concretestructure": {
+    "items": [
+      {
+        "con_structurename": "생물반응조",
+        "con_takevolume": 737.5,
+        "con_adaptationvolume": 878,
+        "con_standard_w": 8.7,
+        "con_standard_l": 8.7,
+        "con_standard_he": 5.8,
+        "con_standard_h": 6.3,
+        "con_standard_index": 2,
+        "con_dcvalue": 20,
+        "con_dcunit": "hr (HRT)",
+        "con_etc": ""
+      },
+      {
+        "con_structurename": "처리수조",
+        "con_takevolume": 130.2,
+        "con_adaptationvolume": 160,
+        "con_standard_w": 5.5,
+        "con_standard_l": 8.7,
+        "con_standard_he": 3.35,
+        "con_standard_h": 6.3,
+        "con_standard_index": 1,
+        "con_dcvalue": 3.7,
+        "con_dcunit": "hr (HRT)",
+        "con_etc": ""
+      },
+      {
+        "con_structurename": "슬러지저류조",
+        "con_takevolume": 40,
+        "con_adaptationvolume": 51,
+        "con_standard_w": 1.7,
+        "con_standard_l": 2.6,
+        "con_standard_he": 5.8,
+        "con_standard_h": 6.3,
+        "con_standard_index": 2,
+        "con_dcvalue": 3.9,
+        "con_dcunit": "hr (HRT)",
+        "con_etc": ""
+      },
+      {
+        "con_structurename": "공동구 (송풍기실)",
+        "con_takevolume": null,
+        "con_adaptationvolume": 160,
+        "con_standard_w": 8.55,
+        "con_standard_l": 5.5,
+        "con_standard_he": null,
+        "con_standard_h": 3.4,
+        "con_standard_index": 1,
+        "con_dcvalue": null,
+        "con_dcunit": null,
+        "con_etc": ""
+      },
+      {
+        "con_structurename": "전처리실",
+        "con_takevolume": null,
+        "con_adaptationvolume": 240,
+        "con_standard_w": 12.85,
+        "con_standard_l": 5.5,
+        "con_standard_he": null,
+        "con_standard_h": 3.4,
+        "con_standard_index": 1,
+        "con_dcvalue": null,
+        "con_dcunit": null,
+        "con_etc": ""
+      }
+    ]
+  },
+  "architecturestructure": {
+    "items": [
+      {
+        "architec_structurename": "기계실",
+        "architectakevolume": null,
+        "architecadaptationvolume": null,
+        "architecstandard_w": 24.3,
+        "architecstandard_l": 9.00,
+        "architecstandard_he": "-",
+        "architecstandard_h": 6,
+        "architecstandard_index": 1,
+        "architecetc": "비고란 입니다."
+      },
+      {
+        "architec_structurename": "전실",
+        "architectakevolume": null,
+        "architecadaptationvolume": null,
+        "architecstandard_w": 5.75,
+        "architecstandard_l": 6.10,
+        "architecstandard_he": "-",
+        "architecstandard_h": 6,
+        "architecstandard_index": 1,
+        "architecetc": ""
+      },
+      {
+        "architec_structurename": "케익반출 및 장비 반입실",
+        "architectakevolume": null,
+        "architecadaptationvolume": null,
+        "architecstandard_w": 18.35,
+        "architecstandard_l": 6.10,
+        "architecstandard_he": "-",
+        "architecstandard_h": 6,
+        "architecstandard_index": 1,
+        "architecetc": ""
+      },
+      {
+        "architec_structurename": "전기실",
+        "architectakevolume": null,
+        "architecadaptationvolume": null,
+        "architecstandard_w": 12.15,
+        "architecstandard_l": 6.10,
+        "architecstandard_he": "-",
+        "architecstandard_h": 4.7,
+        "architecstandard_index": 1,
+        "architecetc": ""
+      },
+      {
+        "architec_structurename": "운영실",
+        "architectakevolume": null,
+        "architecadaptationvolume": null,
+        "architecstandard_w": 8.55,
+        "architecstandard_l": 6.10,
+        "architecstandard_he": "-",
+        "architecstandard_h": 4.7,
+        "architecstandard_index": 1,
+        "architecetc": ""
+      },
+      {
+        "architec_structurename": "탈수기실",
+        "architectakevolume": null,
+        "architecadaptationvolume": null,
+        "architecstandard_w": 12.15,
+        "architecstandard_l": 9.00,
+        "architecstandard_he": "-",
+        "architecstandard_h": 4.7,
+        "architecstandard_index": 1,
+        "architecetc": ""
+      }
+    ]
+  } 
+}

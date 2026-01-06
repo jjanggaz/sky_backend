@@ -1,0 +1,44 @@
+# Git 관련
+.git
+.gitignore
+
+# IDE 관련
+.idea
+.vscode
+*.iml
+
+# Maven 관련
+target/
+!target/*.jar
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# 로그 파일
+logs/
+*.log
+
+# OS 관련
+.DS_Store
+Thumbs.db
+
+# 임시 파일
+*.tmp
+*.temp
+
+# 문서 파일
+README.md
+*.md
+
+# 배치 파일
+*.bat
+*.sh
+
+# PowerShell 프로필
+Microsoft.PowerShell_profile.ps1 

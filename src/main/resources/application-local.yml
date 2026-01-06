@@ -1,0 +1,35 @@
+# LOCAL 환경 설정
+spring:
+  # 외부 properties 파일 로드 (LOCAL)
+  config:
+    import: classpath:api-local.properties
+
+  # 로깅 설정 (LOCAL)
+  logging:
+    level:
+      com.wai.admin: DEBUG
+      org.springframework.web: DEBUG
+      org.springframework.security: DEBUG
+    pattern:
+      console: "%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n"
+      file: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
+    file:
+      name: logs/application-local.log
+      charset: UTF-8
+    charset:
+      console: UTF-8
+      file: UTF-8
+
+# 서버 설정 (LOCAL)
+server:
+  port: 8080
+  error:
+    include-stacktrace: always
+    include-message: always
+
+# DevTools 설정 (LOCAL에서만 활성화)
+devtools:
+  restart:
+    enabled: true
+    additional-paths: src/main/java
+    exclude: static/**,public/**,templates/**

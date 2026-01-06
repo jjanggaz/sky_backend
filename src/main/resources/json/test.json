@@ -1,0 +1,81 @@
+{
+  "reportTitle": "판매 내역서 샘플",
+  "company": {
+    "name": "IAAN Co., Ltd.",
+    "address": "Seoul, Korea",
+    "items": [
+    {"name": "AppleItem",  "price": 3.2,  "qty": 5, "date": "2025-09-22"},
+    {"name": "OrangeItem", "price": 2.1,  "qty": 3, "date": "2025-09-22"},
+    {"name": "GrapeItem",  "price": 4.75, "qty": 2, "date": "2025-09-22"},
+    {"name": "MangoItem",  "price": 5.5,  "qty": 1, "date": "2025-09-22"}
+	]
+  },
+  "house": [
+    {
+      "info_name": "Apple",
+      "info_price": 3.2,
+      "info_qty": 5,
+      "info_date": "2025-09-01"
+    },
+    {
+      "info_name": "Orange",
+      "info_price": 2.1,
+      "info_qty": 3,
+      "info_date": "2025-09-02"
+    },
+    {
+      "info_name": "Orange",
+      "info_price": 2.1,
+      "info_qty": 3,
+      "info_date": "2025-09-02"
+    },
+    {
+      "info_name": "Orange",
+      "info_price": 2.1,
+      "info_qty": 3,
+      "info_date": "2025-09-02"
+    },
+    {
+      "info_name": "Orange",
+      "info_price": 2.1,
+      "info_qty": 3,
+      "info_date": "2025-09-02"
+    },
+    {
+      "info_name": "Orange",
+      "info_price": 2.1,
+      "info_qty": 3,
+      "info_date": "2025-09-02"
+    },
+    {
+      "info_name": "Orange",
+      "info_price": 2.1,
+      "info_qty": 3,
+      "info_date": "2025-09-02"
+    },
+    {
+      "info_name": "Orange",
+      "info_price": 2.1,
+      "info_qty": 3,
+      "info_date": "2025-09-02"
+    },
+    {
+      "info_name": "Orange",
+      "info_price": 2.1,
+      "info_qty": 3,
+      "info_date": "2025-09-02"
+    },
+    {
+      "info_name": "Orange",
+      "info_price": 2.1,
+      "info_qty": 3,
+      "info_date": "2025-09-02"
+    },
+    {
+      "info_name": "Orange",
+      "info_price": 2.1,
+      "info_qty": 3,
+      "info_date": "2025-09-02"
+    }
+  ]
+}

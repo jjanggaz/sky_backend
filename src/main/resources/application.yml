@@ -1,0 +1,90 @@
+server:
+  port: 8080
+  servlet:
+    encoding:
+      charset: UTF-8
+      force: true
+      enabled: true
+    session:
+      timeout: -1 # HttpSession 무제한 (만료되지 않음)
+      cookie:
+        max-age: -1 # 세션 쿠키도 무제한
+
+spring:
+  application:
+    name: wai-admin-backend
+
+  # 세션 설정
+  session:
+    timeout: -1 # 세션 타임아웃 무제한
+    cookie:
+      http-only: true
+      secure: false # 개발환경에서는 false, 운영환경에서는 true (prod 프로파일에서 오버라이드)
+      same-site: lax
+
+  # 한글 인코딩 설정
+  http:
+    encoding:
+      charset: UTF-8
+      force: true
+      enabled: true
+
+  # 파일 업로드 설정
+  servlet:
+    multipart:
+      max-file-size: 1024MB # 개별 파일 최대 크기
+      max-request-size: 1024MB # 전체 요청 최대 크기 (여러 파일 포함)
+      file-size-threshold: 1MB # 메모리에서 디스크로 전환하는 임계값
+      location: ${java.io.tmpdir} # 임시 파일 저장 위치
+
+  # 외부 properties 파일 로드 (기본값: api.properties, 프로파일별로 오버라이드됨)
+  # 프로파일별 설정:
+  # - local: application-local.yml -> api-local.properties
+  # - prod: application-prod.yml -> api-prod.properties
+  config:
+    import: classpath:api.properties
+
+  # 로깅 설정
+  logging:
+    level:
+      com.wai.admin: DEBUG
+      org.springframework.web: DEBUG
+      org.springframework.security: DEBUG
+    pattern:
+      console: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
+      file: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
+    file:
+      name: logs/application.log
+      charset: UTF-8
+    charset:
+      console: UTF-8
+      file: UTF-8
+
+# DevTools 설정 (개발 편의성)
+devtools:
+  restart:
+    enabled: true
+    additional-paths: src/main/java
+    exclude: static/**,public/**,templates/**
+
+# API 설정 (api.properties에서 가져온 값 사용)
+api:
+  base-url: ${api.base-url}
+  version: ${api.version}
+
+# Swagger 설정
+springdoc:
+  api-docs:
+    path: /wai_admin
+  swagger-ui:
+    path: /swagger
+    tags-sorter: alpha
+    operations-sorter: alpha
+    doc-expansion: none
+    disable-swagger-default-url: true
+    # Example Value 자동 생성 설정
+    default-models-expand-depth: 1
+    default-model-expand-depth: 1
+    # 스키마 예시 표시 설정
+    default-model-renderer: example
+  packages-to-scan: com.wai.admin.controller

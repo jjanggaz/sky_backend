@@ -1,0 +1,265 @@
+<!-- Created with Jaspersoft Studio version 7.0.3.final using JasperReports Library version 7.0.3-41034ca841d452f3305ba55b9042260aaa1ab5dd  -->
+<jasperReport name="TableReport" language="java" pageWidth="595" pageHeight="842" whenNoDataType="AllSectionsNoDetail" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="30" bottomMargin="30" uuid="c927e671-66f3-40f2-a189-49d30d607fe5" floatColumnFooter="true">
+	<property name="net.sf.jasperreports.text.save.line.breaks" value="true"/>
+	<property name="net.sf.jasperreports.crosstab.interactive" value="true"/>
+	<property name="net.sf.jasperreports.components.table.interactive" value="true"/>
+	<property name="net.sf.jasperreports.export.html.accessible" value="true"/>
+	<property name="net.sf.jasperreports.export.pdf.tagged" value="true"/>
+	<property name="net.sf.jasperreports.export.pdf.tag.language" value="EN-US"/>
+	<property name="net.sf.jasperreports.export.pdf.metadata.title" value="Accessible Report"/>
+	<property name="net.sf.jasperreports.export.pdf.display.metadata.title" value="true"/>
+	<property name="net.sf.jasperreports.components.table.accessible" value="true"/>
+	<style name="Sans_Normal" default="true" fontSize="10.0" bold="false" italic="false" underline="false" strikeThrough="false"/>
+	<style name="Description" mode="Opaque" backcolor="#EEEEEE">
+		<box>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Heading1" fontSize="16.0" bold="true"/>
+	<style name="Heading2" fontSize="10.0" bold="true" italic="true"/>
+	<style name="Crosstab_RowHeader" mode="Opaque" backcolor="#D2B48C">
+		<box topPadding="2" leftPadding="3" bottomPadding="2" rightPadding="3">
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Crosstab_ColumnHeader" mode="Opaque" backcolor="#D2B48C">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Crosstab_ColumnHeader_Text">
+		<box topPadding="2" leftPadding="3" bottomPadding="2" rightPadding="3"/>
+	</style>
+	<style name="Crosstab_RowGroupTotal" mode="Opaque" backcolor="#FFE4BF">
+		<box topPadding="2" leftPadding="3" bottomPadding="2" rightPadding="3">
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Crosstab_Total" mode="Opaque" backcolor="#CA9755">
+		<box topPadding="2" leftPadding="3" bottomPadding="2" rightPadding="3">
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Crosstab_TotalColumnHeader" mode="Opaque" backcolor="#CA9755">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Crosstab_TotalColumnHeader_Text">
+		<box topPadding="2" leftPadding="3" bottomPadding="2" rightPadding="3"/>
+	</style>
+	<style name="Crosstab_Detail" mode="Opaque" backcolor="#FFFFFF">
+		<box topPadding="2" leftPadding="3" bottomPadding="2" rightPadding="3">
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table_TH" mode="Opaque" backcolor="#D2B48C">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table_TH_Text">
+		<box topPadding="2" leftPadding="3" bottomPadding="2" rightPadding="3"/>
+	</style>
+	<style name="Table_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box topPadding="2" leftPadding="3" bottomPadding="2" rightPadding="3">
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<dataset name="houseDS" uuid="892be1ef-970f-42c8-ab80-82c91a904604">
+		<field name="info_price" class="java.lang.Double"/>
+		<field name="info_name" class="java.lang.String"/>
+		<field name="info_date" class="java.lang.String"/>
+		<field name="info_qty" class="java.lang.Integer"/>
+	</dataset>
+	<dataset name="companyItemsDS" uuid="a1234567-8901-2345-6789-012345678901">
+		<field name="name" class="java.lang.String"/>
+		<field name="price" class="java.lang.Double"/>
+		<field name="qty" class="java.lang.Integer"/>
+		<field name="date" class="java.lang.String"/>
+	</dataset>
+	<parameter name="reportTitle" class="java.lang.String"/>
+	<parameter name="companyName" class="java.lang.String"/>
+	<parameter name="companyAddress" class="java.lang.String"/>
+	<parameter name="house" class="java.util.Collection"/>
+	<parameter name="companyItems" class="java.util.Collection"/>
+	<group name="Group1">
+		<groupHeader>
+			<band height="20">
+				<element kind="textField" uuid="f4f107df-72cf-4276-927e-8e04fea1ff36" x="0" y="0" width="500" height="10" fontName="한컴 고딕" textAdjust="StretchHeight" style="Description">
+					<expression><![CDATA["This is the general statement report."]]></expression>
+				</element>
+			</band>
+			<band height="20">
+				<element kind="textField" uuid="7dac312f-4c73-41f3-bef6-0edcacc789a0" x="0" y="0" width="500" height="10" fontName="한컴 고딕" textAdjust="StretchHeight">
+					<expression><![CDATA[$P{reportTitle}]]></expression>
+					<property name="net.sf.jasperreports.export.accessibility.tag" value="h1"/>
+				</element>
+			</band>
+			<band height="20">
+				<element kind="textField" uuid="5e8edc65-3ae1-4008-bcc4-997e4e36ea2e" x="0" y="0" width="500" height="10" textAdjust="StretchHeight" style="Sans_Normal">
+					<expression><![CDATA[$P{companyName}]]></expression>
+				</element>
+			</band>
+			<band height="20">
+				<element kind="textField" uuid="3b9e83ea-55d1-4224-bcb2-dcb612d76258" x="0" y="0" width="500" height="10" textAdjust="StretchHeight" style="Sans_Normal">
+					<expression><![CDATA[$P{companyAddress}]]></expression>
+				</element>
+			</band>
+			<band height="30"/>
+			<band height="20">
+				<element kind="textField" uuid="8418cbff-c5ae-447d-a752-2490b0057308" x="0" y="0" width="500" height="10" textAdjust="StretchHeight" style="Description">
+					<expression><![CDATA["This is the company items table."]]></expression>
+				</element>
+			</band>
+			<band height="20">
+				<element kind="textField" uuid="7dac312f-4c73-41f3-a752-2490b0057308" x="0" y="0" width="500" height="10" textAdjust="StretchHeight">
+					<expression><![CDATA["Company Items"]]></expression>
+					<property name="net.sf.jasperreports.export.accessibility.tag" value="h1"/>
+				</element>
+			</band>
+			<band height="50">
+				<element kind="component" uuid="2b0cfb7a-8bf5-4075-8b9a-72f82582f12b" stretchType="ElementGroupHeight" x="0" y="0" width="500" height="30">
+					<component kind="table" whenNoDataType="AllSectionsNoDetail">
+						<datasetRun uuid="1940119a-da71-4ebc-ba95-c04e57007a79" subDataset="companyItemsDS">
+							<dataSourceExpression><![CDATA[new net.sf.jasperreports.engine.data.JRBeanCollectionDataSource($P{companyItems}, false)]]></dataSourceExpression>
+						</datasetRun>
+						<column kind="group" uuid="d07b8e92-41a5-4595-93a2-e58dda291354" width="500">
+							<property name="com.jaspersoft.studio.components.table.model.column.name" value="Columns [4]"/>
+							<column kind="single" uuid="139e4257-c1e0-4fec-9810-8f4dfcc0d462" width="125">
+								<columnHeader height="20" rowSpan="1" style="Table_TH">
+									<element kind="textField" uuid="6148c8f3-08c1-412c-80f7-978d6824c88d" stretchType="ContainerHeight" x="0" y="0" width="125" height="20" textAdjust="StretchHeight" style="Table_TH_Text">
+										<expression><![CDATA["Name"]]></expression>
+									</element>
+								</columnHeader>
+								<detailCell height="10">
+									<element kind="textField" uuid="13e935bc-3fc6-420f-ad28-dc6a6eb42f9f" stretchType="ContainerHeight" x="0" y="0" width="125" height="10" textAdjust="StretchHeight" style="Table_TD">
+										<expression><![CDATA[$F{name}]]></expression>
+									</element>
+								</detailCell>
+								<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column1"/>
+							</column>
+							<column kind="single" uuid="3e29a52e-a43a-4f78-9338-442b5c4ccf52" width="125">
+								<columnHeader height="20" rowSpan="1" style="Table_TH">
+									<element kind="textField" uuid="49c36abf-d000-4f3a-a6c8-8f3823db156b" stretchType="ContainerHeight" x="0" y="0" width="125" height="20" textAdjust="StretchHeight" style="Table_TH_Text">
+										<expression><![CDATA["Price"]]></expression>
+									</element>
+								</columnHeader>
+								<detailCell height="10">
+									<element kind="textField" uuid="bec5d55d-c6b5-4352-961e-e5eb8b258746" x="0" y="0" width="125" height="10" textAdjust="StretchHeight" style="Table_TD">
+										<expression><![CDATA[$F{price}]]></expression>
+									</element>
+								</detailCell>
+								<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column2"/>
+							</column>
+							<column kind="single" uuid="c8a14c10-28be-4ede-937c-44e0cb8c6f3b" width="125">
+								<columnHeader height="20" rowSpan="1" style="Table_TH">
+									<element kind="textField" uuid="8bacb782-c042-4db5-a844-0b8bc5ef9af2" stretchType="ContainerHeight" x="0" y="0" width="125" height="20" textAdjust="StretchHeight" style="Table_TH_Text">
+										<expression><![CDATA["Quantity"]]></expression>
+									</element>
+								</columnHeader>
+								<detailCell height="10">
+									<element kind="textField" uuid="b60098ff-15f7-422d-a834-1664f4b42356" x="0" y="0" width="125" height="10" textAdjust="StretchHeight" style="Table_TD">
+										<expression><![CDATA[$F{qty}]]></expression>
+									</element>
+								</detailCell>
+								<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column3"/>
+							</column>
+							<column kind="single" uuid="94e0ac43-3866-4a08-828a-02f4f673ee8c" width="125">
+								<columnHeader height="20" rowSpan="1" style="Table_TH">
+									<element kind="textField" uuid="a38ed8db-8bf7-4763-9075-e374795a2a86" stretchType="ContainerHeight" x="0" y="0" width="125" height="20" textAdjust="StretchHeight" style="Table_TH_Text">
+										<expression><![CDATA["Date"]]></expression>
+									</element>
+								</columnHeader>
+								<detailCell height="10">
+									<element kind="textField" uuid="1929e684-b617-4974-b409-72c5b7de42ec" x="0" y="0" width="125" height="10" textAdjust="StretchHeight" style="Table_TD">
+										<expression><![CDATA[$F{date}]]></expression>
+									</element>
+								</detailCell>
+								<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column4"/>
+							</column>
+						</column>
+					</component>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</element>
+			</band>
+			<band height="20">
+				<element kind="textField" uuid="533e9a7f-78a8-4c12-b306-92ae7b8fda38" x="0" y="0" width="500" height="10" textAdjust="StretchHeight" style="Description">
+					<expression><![CDATA["This is the house table."]]></expression>
+				</element>
+			</band>
+			<band height="20">
+				<element kind="textField" uuid="e6726dbf-f84d-45e2-9f86-0b4e899ccbe6" x="0" y="0" width="500" height="10" textAdjust="StretchHeight" style="Heading1">
+					<expression><![CDATA["House"]]></expression>
+					<property name="net.sf.jasperreports.export.accessibility.tag" value="h1"/>
+				</element>
+			</band>
+			<band height="50">
+				<element kind="component" uuid="a1f1003b-312d-4326-9f2a-4c405d91937f" stretchType="ElementGroupHeight" x="0" y="0" width="500" height="30">
+					<component kind="table" whenNoDataType="AllSectionsNoDetail">
+						<datasetRun uuid="7a231189-e0d5-4aa0-a751-39d19b1efe8b" subDataset="houseDS">
+							<dataSourceExpression><![CDATA[new net.sf.jasperreports.engine.data.JRBeanCollectionDataSource($P{house}, false)]]></dataSourceExpression>
+						</datasetRun>
+						<column kind="group" uuid="e89c0428-93ba-43c9-ac36-caaf311d1c23" width="500">
+							<property name="com.jaspersoft.studio.components.table.model.column.name" value="Columns [4]"/>
+							<column kind="single" uuid="bbdb515a-0d6d-46cc-84d3-d22c1fbd8781" width="125">
+								<columnHeader height="20" rowSpan="1" style="Table_TH">
+									<element kind="textField" uuid="ab5203fe-b4dd-4304-9529-9769a8b52274" stretchType="ContainerHeight" x="0" y="0" width="125" height="20" textAdjust="StretchHeight" style="Table_TH_Text">
+										<expression><![CDATA["Price"]]></expression>
+									</element>
+								</columnHeader>
+								<detailCell height="10">
+									<element kind="textField" uuid="9cabc025-7bcf-4292-a165-a504f529076a" stretchType="ContainerHeight" x="0" y="0" width="125" height="10" textAdjust="StretchHeight" style="Table_TD">
+										<expression><![CDATA[$F{info_price}]]></expression>
+									</element>
+								</detailCell>
+								<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column1"/>
+							</column>
+							<column kind="single" uuid="9b577d40-88c0-4ecc-a51c-eab910a80d0a" width="125">
+								<columnHeader height="20" rowSpan="1" style="Table_TH">
+									<element kind="textField" uuid="9df76cf5-3a52-4389-9efc-6bc42cf88486" stretchType="ContainerHeight" x="0" y="0" width="125" height="20" textAdjust="StretchHeight" style="Table_TH_Text">
+										<expression><![CDATA["Name"]]></expression>
+									</element>
+								</columnHeader>
+								<detailCell height="10">
+									<element kind="textField" uuid="252757ed-7648-4643-bb41-b5d50e6e359b" x="0" y="0" width="125" height="10" textAdjust="StretchHeight" style="Table_TD">
+										<expression><![CDATA[$F{info_name}]]></expression>
+									</element>
+								</detailCell>
+								<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column2"/>
+							</column>
+							<column kind="single" uuid="bb948094-4211-4122-8fc1-ee7e5990f30b" width="125">
+								<columnHeader height="20" rowSpan="1" style="Table_TH">
+									<element kind="textField" uuid="c7199a0a-e57b-4759-834b-4f7c2406849a" stretchType="ContainerHeight" x="0" y="0" width="125" height="20" textAdjust="StretchHeight" style="Table_TH_Text">
+										<expression><![CDATA["Date"]]></expression>
+									</element>
+								</columnHeader>
+								<detailCell height="10">
+									<element kind="textField" uuid="ee227a8c-c78b-419f-8671-cb9e89fee28e" x="0" y="0" width="125" height="10" textAdjust="StretchHeight" style="Table_TD">
+										<expression><![CDATA[$F{info_date}]]></expression>
+									</element>
+								</detailCell>
+								<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column3"/>
+							</column>
+							<column kind="single" uuid="1e3a3e84-c651-4402-bfab-5b24f78a2236" width="125">
+								<columnHeader height="20" rowSpan="1" style="Table_TH">
+									<element kind="textField" uuid="61ca596e-db16-4d78-8f44-5beee220a74b" stretchType="ContainerHeight" x="0" y="0" width="125" height="20" textAdjust="StretchHeight" style="Table_TH_Text">
+										<expression><![CDATA["Quantity"]]></expression>
+									</element>
+								</columnHeader>
+								<detailCell height="10">
+									<element kind="textField" uuid="67e5e9d8-c3b3-4ee5-bec3-abef6e19f220" x="0" y="0" width="125" height="10" textAdjust="StretchHeight" style="Table_TD">
+										<expression><![CDATA[$F{info_qty}]]></expression>
+									</element>
+								</detailCell>
+								<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column4"/>
+							</column>
+						</column>
+					</component>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</element>
+			</band>
+		</groupHeader>
+	</group>
+	<background splitType="Stretch"/>
+</jasperReport>

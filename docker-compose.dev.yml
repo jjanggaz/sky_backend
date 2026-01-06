@@ -1,0 +1,23 @@
+# Docker Compose - DEV 환경
+version: "3.8"
+
+services:
+  wai-backend:
+    build: .
+    container_name: wai-backend-dev
+    ports:
+      - "5433:8080"
+    environment:
+      - SPRING_PROFILES_ACTIVE=dev
+      - JAVA_OPTS=-Xmx1024m -Xms512m
+      - TZ=Asia/Seoul
+    volumes:
+      - ./logs:/app/logs
+      - ./src:/app/src # 개발 시 소스 코드 마운트 (선택사항)
+    restart: unless-stopped
+    networks:
+      - wai-network
+
+networks:
+  wai-network:
+    driver: bridge

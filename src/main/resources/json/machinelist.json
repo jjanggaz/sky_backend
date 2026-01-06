@@ -1,0 +1,205 @@
+{
+	"equalizationsystem": {
+	  "title" : "■ 유량조정조 설비(EQUALIZATION System)",
+	  "items": [
+		{
+		  "no": 1,
+		  "tagno": "M-101",
+		  "item": "유입밸브",
+		  "specification": "전동식 게이트밸브 200A, 10kg/㎠",
+		  "vendor": "Hyundai Valve",
+		  "model": "HDV-G200",
+		  "materialofcons": "STS304, FlANGE CONNECTION",
+		  "power": 0.75,
+		  "duty": 2,
+		  "sty": "-",
+		  "tot": 2,
+		  "unit": "EA"
+		},
+		{
+		  "no": 2,
+		  "tagno": "M-102",
+		  "item": "협잡물 종합처리기",
+		  "specification": "전동식 게이트밸브 200A, 10kg/㎠",
+		  "vendor": "Hyundai Valve",
+		  "model": "HDV-G200",
+		  "materialofcons": "STS304, FlANGE CONNECTION",
+		  "power": 0.75,
+		  "duty": 2,
+		  "sty": "-",
+		  "tot": 2,
+		  "unit": "EA"
+		}	  
+	  ]
+	},
+	"sbrsystem": {
+	  "title" : "■ 생물반응조 설비 (SBR System)",
+	  "items": [
+		{
+		  "no": 1,
+		  "tagno": "M-201",
+		  "item": "반응조 송풍기",
+		  "specification": "전동식 게이트밸브 200A, 10kg/㎠",
+		  "vendor": "Hyundai Valve",
+		  "model": "HDV-G200",
+		  "materialofcons": "STS304, FlANGE CONNECTION",
+		  "power": 0.75,
+		  "duty": 2,
+		  "sty": "-",
+		  "tot": 2,
+		  "unit": "EA"
+		},
+		{
+		  "no": 2,
+		  "tagno": "M-202",
+		  "item": "수중포기기",
+		  "specification": "전동식 게이트밸브 200A, 10kg/㎠",
+		  "vendor": "Hyundai Valve",
+		  "model": "HDV-G200",
+		  "materialofcons": "STS304, FlANGE CONNECTION",
+		  "power": 0.75,
+		  "duty": 2,
+		  "sty": "-",
+		  "tot": 2,
+		  "unit": "EA"
+		}	  
+	  ]
+	},
+	"treatedwatersystem": {
+	  "title" : "■ 처리수조 설비(TREATED WATER System)",
+	  "items": [
+		{
+		  "no": 1,
+		  "tagno": "M-301",
+		  "item": "총인설비 유입펌프",
+		  "specification": "전동식 게이트밸브 200A, 10kg/㎠",
+		  "vendor": "Hyundai Valve",
+		  "model": "HDV-G200",
+		  "materialofcons": "STS304, FlANGE CONNECTION",
+		  "power": 0.75,
+		  "duty": 2,
+		  "sty": "-",
+		  "tot": 2,
+		  "unit": "EA"
+		}  
+	  ]
+	},
+	"dissolvedairfloatationsystem": {
+	  "title" : "■ 총인설비 (DISSOLVED AIR FLOATATION System)",
+	  "items": [
+		{
+		  "no": 1,
+		  "tagno": "M-401",
+		  "item": "부상분리시스템",
+		  "specification": "전동식 게이트밸브 200A, 10kg/㎠",
+		  "vendor": "Hyundai Valve",
+		  "model": "HDV-G200",
+		  "materialofcons": "STS304, FlANGE CONNECTION",
+		  "power": 0.75,
+		  "duty": 2,
+		  "sty": "-",
+		  "tot": 2,
+		  "unit": "EA"
+		},
+		{
+		  "no": 2,
+		  "tagno": "M-402",
+		  "item": "PAC 공급펌프",
+		  "specification": "전동식 게이트밸브 200A, 10kg/㎠",
+		  "vendor": "Hyundai Valve",
+		  "model": "HDV-G200",
+		  "materialofcons": "STS304, FlANGE CONNECTION",
+		  "power": 0.75,
+		  "duty": 2,
+		  "sty": "-",
+		  "tot": 2,
+		  "unit": "EA"
+		}	 
+	  ]
+	},  
+	"disinfectionsystem": {
+	  "title" : "■ 소독설비 (DISINFECTION System)",
+	  "items": [
+		{
+		  "no": 1,
+		  "tagno": "M-501",
+		  "item": "소독설비",
+		  "specification": "전동식 게이트밸브 200A, 10kg/㎠",
+		  "vendor": "Hyundai Valve",
+		  "model": "HDV-G200",
+		  "materialofcons": "STS304, FlANGE CONNECTION",
+		  "power": 0.75,
+		  "duty": 2,
+		  "sty": "-",
+		  "tot": 2,
+		  "unit": "EA"
+		},
+		{
+		  "no": 2,
+		  "tagno": "M-502",
+		  "item": "용수공급장치",
+		  "specification": "전동식 게이트밸브 200A, 10kg/㎠",
+		  "vendor": "Hyundai Valve",
+		  "model": "HDV-G200",
+		  "materialofcons": "STS304, FlANGE CONNECTION",
+		  "power": 0.75,
+		  "duty": 2,
+		  "sty": "-",
+		  "tot": 2,
+		  "unit": "EA"
+		}	  
+	  ]
+	},
+	"sludgedewateringsystem": {
+	  "title" : "■ 슬러지설비 (SLUDGE DEWATERING System)",
+	  "items": [
+		{
+		  "no": 1,
+		  "tagno": "M-601",
+		  "item": "교반용 송풍기",
+		  "specification": "전동식 게이트밸브 200A, 10kg/㎠",
+		  "vendor": "Hyundai Valve",
+		  "model": "HDV-G200",
+		  "materialofcons": "STS304, FlANGE CONNECTION",
+		  "power": 0.75,
+		  "duty": 2,
+		  "sty": "-",
+		  "tot": 2,
+		  "unit": "EA"
+		},
+		{
+		  "no": 2,
+		  "tagno": "M-602",
+		  "item": "슬러지 이송펌프",
+		  "specification": "전동식 게이트밸브 200A, 10kg/㎠",
+		  "vendor": "Hyundai Valve",
+		  "model": "HDV-G200",
+		  "materialofcons": "STS304, FlANGE CONNECTION",
+		  "power": 0.75,
+		  "duty": 2,
+		  "sty": "-",
+		  "tot": 2,
+		  "unit": "EA"
+		}	  
+	  ]
+	},
+	"odorcontrolsystem": {
+	  "title" : "■ 탈취설비 (ODOR CONTROL System)",
+	  "items": [
+		{
+		  "no": 1,
+		  "tagno": "M-701",
+		  "item": "탈취설비",
+		  "specification": "전동식 게이트밸브 200A, 10kg/㎠",
+		  "vendor": "Hyundai Valve",
+		  "model": "HDV-G200",
+		  "materialofcons": "STS304, FlANGE CONNECTION",
+		  "power": 0.75,
+		  "duty": 2,
+		  "sty": "-",
+		  "tot": 2,
+		  "unit": "EA"
+		} 
+	  ]
+	}	 
+  }

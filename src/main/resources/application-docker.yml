@@ -1,0 +1,42 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: wai-admin-backend
+
+  # 파일 업로드 설정 (Docker 환경)
+  servlet:
+    multipart:
+      max-file-size: 1024MB # 개별 파일 최대 크기
+      max-request-size: 1024MB # 전체 요청 최대 크기 (여러 파일 포함)
+      file-size-threshold: 1MB # 메모리에서 디스크로 전환하는 임계값
+      location: ${java.io.tmpdir} # 임시 파일 저장 위치
+
+  # 로깅 설정
+  logging:
+    level:
+      com.wai.admin: DEBUG
+      org.springframework.web: DEBUG
+    pattern:
+      console: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
+      file: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
+    file:
+      name: logs/application.log
+      max-size: 10MB
+      max-history: 30
+
+# 외부 API 설정 (도커 환경용)
+api:
+  base-url: ${API_BASE_URL:http://localhost:3000}
+  timeout: 30000
+
+# 도커 환경 특화 설정
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics
+  endpoint:
+    health:
+      show-details: always

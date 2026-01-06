@@ -1,0 +1,585 @@
+{
+  "EqualizationTank": {
+    "items": [
+      {
+        "no": 1,
+        "name": "DCN.influents.q",
+        "value": 511.5
+      },
+      {
+        "no": 2,
+        "name": "DCN.influents.bod",
+        "value": null
+      },
+      {
+        "no": 3,
+        "name": "DCN.influents.cod",
+        "value": null
+      },
+      {
+        "no": 4,
+        "name": "DCN.influents.toc",
+        "value": null
+      },
+      {
+        "no": 5,
+        "name": "DCN.influents.ss",
+        "value": null
+      },
+      {
+        "no": 6,
+        "name": "DCN.influents.tn",
+        "value": null
+      },
+      {
+        "no": 7,
+        "name": "DCN.influents.tp",
+        "value": null
+      },
+      {
+        "no": 8,
+        "name": "DCN.influents.temp",
+        "value": null
+      },
+      {
+        "no": 9,
+        "name": "DCN.effluents.water.q",
+        "value": null
+      },
+      {
+        "no": 10,
+        "name": "DCN.effluents.water.bod",
+        "value": null
+      },
+      {
+        "no": 11,
+        "name": "DCN.effluents.water.cod",
+        "value": null
+      },
+      {
+        "no": 12,
+        "name": "DCN.effluents.water.toc",
+        "value": null
+      },
+      {
+        "no": 13,
+        "name": "DCN.effluents.water.ss",
+        "value": null
+      },
+      {
+        "no": 14,
+        "name": "DCN.effluents.water.tn",
+        "value": null
+      },
+      {
+        "no": 15,
+        "name": "DCN.effluents.water.tp",
+        "value": null
+      },
+      {
+        "no": 16,
+        "name": "DCP.HRT.HRT_Eqtank",
+        "value": 6
+      },
+      {
+        "no": 17,
+        "name": "DCP.HRT.HRT_pHtank",
+        "value": 0.2
+      },
+      {
+        "no": 18,
+        "name": "STC.eqtank.structure_name",
+        "value": "Equalization Tank"
+      },
+      {
+        "no": 19,
+        "name": "STC.eqtank.structure_type",
+        "value": "CONCRETE_SQUARE"
+      },
+      {
+        "no": 20,
+        "name": "STC.eqtank.tank_idx_lists",
+        "value": 2
+      },
+      {
+        "no": 21,
+        "name": "STC.eqtank.water_level",
+        "value": 5
+      },
+      {
+        "no": 22,
+        "name": "STC.eqtank.width",
+        "value": 5
+      },
+      {
+        "no": 23,
+        "name": "STC.eqtank.length",
+        "value": 5
+      },
+      {
+        "no": 24,
+        "name": "STC.eqtank.height",
+        "value": 6
+      }
+    ]
+  },
+  "SBR": {
+    "items": [
+      {
+        "no": 1,
+        "name": "DCN.influents.q",
+        "value": 506.5910295
+      },
+      {
+        "no": 2,
+        "name": "DCN.influents.bod",
+        "value": 206.968711
+      },
+      {
+        "no": 3,
+        "name": "DCN.influents.cod",
+        "value": 0
+      },
+      {
+        "no": 4,
+        "name": "DCN.influents.toc",
+        "value": 133.2536107
+      },
+      {
+        "no": 5,
+        "name": "DCN.influents.ss",
+        "value": 176.9689818
+      },
+      {
+        "no": 6,
+        "name": "DCN.influents.tn",
+        "value": 43.80006144
+      },
+      {
+        "no": 7,
+        "name": "DCN.influents.tp",
+        "value": 7.783197893
+      },
+      {
+        "no": 8,
+        "name": "DCN.influents.temp",
+        "value": 12
+      },
+      {
+        "no": 9,
+        "name": "DCN.effluents.water.q",
+        "value": 500.3810295
+      },
+      {
+        "no": 10,
+        "name": "DCN.effluents.water.bod",
+        "value": 4.967249063
+      },
+      {
+        "no": 11,
+        "name": "DCN.effluents.water.cod",
+        "value": 0
+      },
+      {
+        "no": 12,
+        "name": "DCN.effluents.water.toc",
+        "value": 15.99043329
+      },
+      {
+        "no": 13,
+        "name": "DCN.effluents.water.ss",
+        "value": 15.04236345
+      },
+      {
+        "no": 14,
+        "name": "DCN.effluents.water.tn",
+        "value": 8.628612104
+      },
+      {
+        "no": 15,
+        "name": "DCN.effluents.water.tp",
+        "value": 1.634471558
+      },
+      {
+        "no": 16,
+        "name": "DCN.effluents.sludge.q",
+        "value": 6.21
+      },
+      {
+        "no": 17,
+        "name": "DCN.effluents.sludge.bod",
+        "value": 4174.53029
+      },
+      {
+        "no": 18,
+        "name": "DCN.effluents.sludge.cod",
+        "value": 0
+      },
+      {
+        "no": 19,
+        "name": "DCN.effluents.sludge.toc",
+        "value": 3130.897717
+      },
+      {
+        "no": 20,
+        "name": "DCN.effluents.sludge.ss",
+        "value": 10000
+      },
+      {
+        "no": 21,
+        "name": "DCN.effluents.sludge.tn",
+        "value": 606.776797
+      },
+      {
+        "no": 22,
+        "name": "DCN.effluents.sludge.tp",
+        "value": 503.2270005
+      },
+      {
+        "no": 23,
+        "name": "DCP.Sludge.MLSS",
+        "value": 3000
+      },
+      {
+        "no": 24,
+        "name": "DCP.Sludge.Nitrifcation",
+        "value": 1.3
+      },
+      {
+        "no": 25,
+        "name": "DCP.Sludge.SVI",
+        "value": 100
+      },
+      {
+        "no": 26,
+        "name": "DCP.Sludge.DecantSF",
+        "value": 0.2
+      },
+      {
+        "no": 27,
+        "name": "DCP.Kinetic_Coeffient.m",
+        "value": 6
+      },
+      {
+        "no": 28,
+        "name": "DCP.Kinetic_Coeffient.ks",
+        "value": 20
+      },
+      {
+        "no": 29,
+        "name": "DCP.Kinetic_Coeffient.y",
+        "value": 0.4
+      },
+      {
+        "no": 30,
+        "name": "DCP.Kinetic_Coeffient.kd",
+        "value": 0.12
+      },
+      {
+        "no": 31,
+        "name": "DCP.Kinetic_Coeffient.fd",
+        "value": 0.15
+      },
+      {
+        "no": 32,
+        "name": "DCP.Kinetic_Coeffient.thofm",
+        "value": 1.07
+      },
+      {
+        "no": 33,
+        "name": "DCP.Kinetic_Coeffient.thofkd",
+        "value": 1.04
+      },
+      {
+        "no": 34,
+        "name": "DCP.Kinetic_Coeffient.thofks",
+        "value": 1
+      },
+      {
+        "no": 35,
+        "name": "DCP.Kinetic_Coeffient.mn",
+        "value": 0.75
+      },
+      {
+        "no": 36,
+        "name": "DCP.Kinetic_Coeffient.kn",
+        "value": 0.74
+      },
+      {
+        "no": 37,
+        "name": "DCP.Kinetic_Coeffient.yn",
+        "value": 0.12
+      },
+      {
+        "no": 38,
+        "name": "DCP.Kinetic_Coeffient.kdn",
+        "value": 0.08
+      },
+      {
+        "no": 39,
+        "name": "DCP.Kinetic_Coeffient.ko",
+        "value": 0.5
+      },
+      {
+        "no": 40,
+        "name": "DCP.Kinetic_Coeffient.thofmn",
+        "value": 1.07
+      },
+      {
+        "no": 41,
+        "name": "DCP.Kinetic_Coeffient.thofkdn",
+        "value": 1.053
+      },
+      {
+        "no": 42,
+        "name": "DCP.Kinetic_Coeffient.thofksn",
+        "value": 1.04
+      },
+      {
+        "no": 43,
+        "name": "DCP.Operation_Cycle.RAS",
+        "value": 10
+      },
+      {
+        "no": 44,
+        "name": "DCP.Operation_Cycle.Anoxic",
+        "value": 0
+      },
+      {
+        "no": 45,
+        "name": "DCP.Operation_Cycle.Fill",
+        "value": 80
+      },
+      {
+        "no": 46,
+        "name": "DCP.Operation_Cycle.Aeration",
+        "value": 150
+      },
+      {
+        "no": 47,
+        "name": "DCP.Operation_Cycle.Setting",
+        "value": 60
+      },
+      {
+        "no": 48,
+        "name": "DCP.Operation_Cycle.Decant",
+        "value": 55
+      },
+      {
+        "no": 49,
+        "name": "DCP.Operation_Cycle.Sludge",
+        "value": 5
+      },
+      {
+        "no": 50,
+        "name": "DCP.Operation_Cycle.Pause",
+        "value": 0
+      },
+      {
+        "no": 51,
+        "name": "DCP.ETC.DO_in_Basin",
+        "value": 2
+      },
+      {
+        "no": 52,
+        "name": "DCP.ETC.BDCOD_ratio",
+        "value": 1.5
+      },
+      {
+        "no": 53,
+        "name": "DCP.ETC.bpCOD_pCOD_ratio",
+        "value": 0.8
+      },
+      {
+        "no": 54,
+        "name": "DCP.ETC.EffluentOrgN",
+        "value": 0.6
+      },
+      {
+        "no": 55,
+        "name": "DCP.ETC.EffluentNH4",
+        "value": 1
+      },
+      {
+        "no": 56,
+        "name": "STC.flowtank.structure_name",
+        "value": "SBR"
+      },
+      {
+        "no": 57,
+        "name": "STC.flowtank.structure_type",
+        "value": "CONCRETE_SQUARE"
+      },
+      {
+        "no": 58,
+        "name": "STC.flowtank.tank_idx_lists",
+        "value": 2
+      },
+      {
+        "no": 59,
+        "name": "STC.flowtank.water_level",
+        "value": 5
+      },
+      {
+        "no": 60,
+        "name": "STC.flowtank.width",
+        "value": 8.6
+      },
+      {
+        "no": 61,
+        "name": "STC.flowtank.length",
+        "value": 8.6
+      },
+      {
+        "no": 62,
+        "name": "STC.flowtank.height",
+        "value": 6
+      },
+      {
+        "no": 63,
+        "name": "DCP.Aeration.A",
+        "value": 0.6
+      },
+      {
+        "no": 64,
+        "name": "DCP.Aeration.K",
+        "value": 2.86
+      },
+      {
+        "no": 65,
+        "name": "DCP.Aeration.B",
+        "value": 0.1
+      },
+      {
+        "no": 66,
+        "name": "DCP.Aeration.C",
+        "value": 4.57
+      },
+      {
+        "no": 67,
+        "name": "DCP.Aeration.Ea",
+        "value": 18
+      },
+      {
+        "no": 68,
+        "name": "DCP.Aeration.Safety",
+        "value": 10
+      },
+      {
+        "no": 69,
+        "name": "DCP.Aeration.OTE",
+        "value": null
+      },
+      {
+        "no": 70,
+        "name": "DCP.Alk_Chemical.additional",
+        "value": 0
+      },
+      {
+        "no": 71,
+        "name": "DCP.CH3OH_Chemical.additional",
+        "value": 0
+      },
+      {
+        "no": 72,
+        "name": "DCP.CH3OH_Chemical.conc",
+        "value": 99
+      },
+      {
+        "no": 73,
+        "name": "DCP.Air_Blower.Operation_Time",
+        "value": null
+      },
+      {
+        "no": 74,
+        "name": "DCP.Air_Blower.Device_number",
+        "value": null
+      },
+      {
+        "no": 75,
+        "name": "DCP.Air_Blower.Safety_Factor",
+        "value": null
+      },
+      {
+        "no": 76,
+        "name": "DCP.Air_Blower.Pipe_length",
+        "value": null
+      },
+      {
+        "no": 77,
+        "name": "DCP.Air_Blower.Motor_Efficiency",
+        "value": null
+      },
+      {
+        "no": 78,
+        "name": "DCP.Aeration_Device.Aeration_Depth",
+        "value": null
+      },
+      {
+        "no": 79,
+        "name": "DCP.Aeration_Device.Operation_Time",
+        "value": null
+      },
+      {
+        "no": 80,
+        "name": "DCP.Aeration_Device.Device_number",
+        "value": null
+      },
+      {
+        "no": 81,
+        "name": "DCP.Aeration_Device.width",
+        "value": null
+      },
+      {
+        "no": 82,
+        "name": "DCP.Aeration_Device.length",
+        "value": null
+      },
+      {
+        "no": 83,
+        "name": "DCP.Aeration_Device.water_level",
+        "value": null
+      },
+      {
+        "no": 84,
+        "name": "DCP.Floating_Decanter.Drives_number",
+        "value": null
+      },
+      {
+        "no": 85,
+        "name": "DCP.Floating_Decanter.Device_number",
+        "value": null
+      },
+      {
+        "no": 86,
+        "name": "DCP.Floating_Decanter.Safety_Factor",
+        "value": null
+      },
+      {
+        "no": 87,
+        "name": "DCP.Sludge_Discharge_Pump.Operation_Time",
+        "value": null
+      },
+      {
+        "no": 88,
+        "name": "DCP.Sludge_Discharge_Pump.Device_number",
+        "value": null
+      },
+      {
+        "no": 89,
+        "name": "DCP.Sludge_Discharge_Pump.Safety_Factor",
+        "value": null
+      },
+      {
+        "no": 90,
+        "name": "DCP.Sludge_Discharge_Pump.Total_Dynamic_Headd",
+        "value": null
+      },
+      {
+        "no": 91,
+        "name": "DCP.Sludge_Discharge_Pump.Pipe_length",
+        "value": null
+      }
+    ]
+  }
+}
