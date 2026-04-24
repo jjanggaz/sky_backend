@@ -7,6 +7,7 @@ public class Sky1Vo {
     
     private Integer id;
     private String name;
+    private String idAndName;
 
     // Constructors
     public Sky1Vo() {
@@ -34,11 +35,20 @@ public class Sky1Vo {
         this.name = name;
     }
 
+    public String getIdAndName() {
+        return idAndName;
+    }
+
+    public void setIdAndName(String idAndName) {
+        this.idAndName = idAndName;
+    }
+
     @Override
     public String toString() {
         return "Sky1Vo{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
+                ", idAndName='" + idAndName + '\'' +
                 '}';
     }
 }

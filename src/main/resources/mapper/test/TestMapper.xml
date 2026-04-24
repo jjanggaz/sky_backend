@@ -11,9 +11,10 @@
 
     <!-- sky1 테이블 전체 조회 -->
     <select id="selectSky1List" resultType="com.wai.admin.vo.test.Sky1Vo">
-        SELECT 
+        SELECT
             id,
-            name
+            name,
+            CONCAT(id, '_', name) AS id_and_name
         FROM sky1
         ORDER BY id
     </select>
